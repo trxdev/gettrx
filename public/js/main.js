@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  var socket = io()
+  
   const CANVAS_ROWS = 1000
   const CANVAS_COLS = 1000
 
