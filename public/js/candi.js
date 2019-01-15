@@ -6,7 +6,7 @@ var TRON={
         this.contractInstance=window.tronWeb.contract(contractInfo.abi.entrys,contractInfo.contract_address);
     },
 
-    transferCandy:async function(value){
+    transferCandy:async function(){
        console.log(await this.contractInstance.buyTokens().send());
         return await this.contractInstance.transferCandy().send();
     },    
