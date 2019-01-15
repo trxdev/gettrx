@@ -561,9 +561,15 @@ $(document).ready(() => {
     	}
     }
 });
-  $('#btn_leave').click(function(event){
-    TRON.leaveCommunity();
-  })
+  $("#btn_leave").click(async function(event) {
+  	var result = await TRON.leaveCommunity();
+  	//$(".modal").modal("hide");
+
+  	//$("#LeaveCommunityDiv").hide();
+  	//$(".communityData").hide();
+  	//$("#JoinCommunityDiv").show();
+  	//showAccountInfo();
+});
   initialize()
   counter()
   setTimeout(tronLoginCheck, 2000);
