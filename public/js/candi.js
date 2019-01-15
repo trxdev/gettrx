@@ -1,25 +1,26 @@
+var TRON={
+    CONTRACT_ADDRESS:"TUhKFyGMi28AXgtgRK9arucSC2mz3XDFgx",
+    contractInstance:"",
+    ListCommunity:[],
+    init:async function(){
+        var contractInfo=await window.tronWeb.trx.getContract(this.CONTRACT_ADDRESS);
+        this.contractInstance=window.tronWeb.contract(contractInfo.abi.entrys,contractInfo.contract_address);
+        //this.hookPixelPurchased();
+    },
+   getCandy:async function(id){
+        //console.log(await this.contractInstance.maxNumbers().call()).toNumber();
+        var ned = await this.contractInstance.getCandy(123).call();
+        console.log(ned);
+    },
 
-const TronWeb = require('tronweb');
-
-const HttpProvider = TronWeb.providers.HttpProvider;
-const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
-const solidityNode = new HttpProvider(' https://api.shasta.trongrid.io');
-const eventServe = "https://api.shasta.trongrid.io"
-
-const tronWeb = new TronWeb(
-    fullNode,
-    solidityNode,
-    eventServer,
-    privateKey
-);
-
-
-async function pickWinnerCalling() {
-const contractInstance = await tronWeb.contract().at("TJHfHUk2YxXXiAspfx2kfAPZaAQasSmaZ2");
-const result  = await contractInstance.leaveCommunity().send();
-
-console.log(result); 
-};
-
-//calling pickWinnerCalling function
-//pickWinnerCalling();
+}
+var timeOutID=setTimeout(tryInstall,100)
+function tryInstall(){
+    if(window.tronWeb&&window.tronWeb && window.tronWeb.ready){
+        clearTimeout(timeOutID);
+        TRON.init();
+    }
+    else{
+        timeOutID=setTimeout(tryInstall,100)
+    }
+}
