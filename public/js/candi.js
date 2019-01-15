@@ -1,4 +1,5 @@
-const TronWeb = require('tronweb');
+var TRON={
+    const TronWeb = require('tronweb');
 
 const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
@@ -12,7 +13,6 @@ const tronWeb = new TronWeb(
     eventServer,
     privateKey
 );
-var TRON={
 init:async function(){
 let contractInstance = await tronWeb.contract().at("TJHfHUk2YxXXiAspfx2kfAPZaAQasSmaZ2");
 },
