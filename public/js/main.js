@@ -562,7 +562,7 @@ $(document).ready(() => {
     }
 });
   $("#btn_leave").click(async function(event) {
-  	var result = await TRON.leaveCommunity();
+  	alert('g');
   	//$(".modal").modal("hide");
 
   	//$("#LeaveCommunityDiv").hide();
