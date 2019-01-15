@@ -1,3 +1,4 @@
+const TronWeb = require('tronweb');
 $(document).ready(() => {
 
 const HttpProvider = TronWeb.providers.HttpProvider;
