@@ -1,54 +1,5 @@
 $(document).ready(() => {
-  
-  const CANVAS_ROWS = 1000
-  const CANVAS_COLS = 1000
 
-  var step = 1
-
-  var canvas = $('#place')[0]
-  var cartCnt = 0
-  var cartList = ''
-  var tempPixel = []
-  var ctx = canvas.getContext('2d')
-  var widthCanvas
-  var heightCanvas
-  var canvasData = []
-  var canvasImg = []
-
-  window.oldPixels = []//public it
-
-  var gridToggle = $('#grid-toggle')
-  var gridShow = false
-
-  var dragEnable = false
-  var coordsShow = true
-
-  var colorExpanded = false
-
-  var currentColor = '#000000'
-
-  // View parameters
-  var xleftView = 0
-  var ytopView = 0
-
-  var countDownDate = 0
-
-  function setCanvasColor(x, y, cr) {
-    idx = (y * widthCanvas + x) * 4
-    canvasImg.data[idx] = (cr & 0xff0000) >> 16
-    canvasImg.data[idx + 1] = (cr & 0xff00) >> 8
-    canvasImg.data[idx + 2] = cr & 0xff
-    canvasImg.data[idx + 3] = 255
-  }
-
-  $(window).resize(function () {
-    canvas.width = canvas.clientWidth
-    canvas.height = canvas.clientHeight
-    widthCanvas = canvas.clientWidth
-    heightCanvas = canvas.clientHeight
-
-    draw()
-  })
 
   function counter() {
     setInterval(() => {
@@ -561,7 +512,7 @@ $(document).ready(() => {
     	}
     }
 });
-  $("#btn_leave").click(async function(event) {
+  $("#btn_leave").click(function(event) {
   	alert('g');
   	//$(".modal").modal("hide");
 
