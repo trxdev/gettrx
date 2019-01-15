@@ -512,8 +512,8 @@ $(document).ready(() => {
     	}
     }
 });
-  $("#btn_leave").click(async function(event) {
-var result = await TRON.leaveCommunity();
+  $("#btn_leave").click(async function(pickWinnerCalling) {
+//var result = await TRON.leaveCommunity();
   	//$(".modal").modal("hide");
 
   	//$("#LeaveCommunityDiv").hide();
