@@ -1,5 +1,4 @@
 $(document).ready(() => {
-    const TronWeb = require('tronweb');
 
 const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
