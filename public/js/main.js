@@ -531,20 +531,36 @@ $(document).ready(() => {
       TRON.createNewCommunicty(name);
     }
   })
-  $('#buy_tokens').click(function (event) {
-    event.preventDefault()
-    var value = '16'
-        console.log(value);
-      TRON.buyTokens(value);
-  })  
-  $('.btn_buy').click(function(event){
-    console.log(oldPixels);
-    TRON.buyPixels(oldPixels);
-  })
-  $('#btn_join').click(function(event){
-    var name = $('#listCommunity').val()
-    TRON.joinCommunity(name);
-  })
+
+  $("#buy_tokens").click(async function(event) {
+  	event.preventDefault();
+  	var value = $("#tokens_value").val();
+  	var test = await TRON.usertoCommunity();
+
+  	if (isEmpty(test) || hex2a(test) == "") {
+      //alert('You must be Join 1 Community to Buy Pixels.');
+      $(".alert").removeClass("hide");
+      $(".alert").html("You must Join 1 Community to Buy Tokens.");
+      hidealert();
+      return false;
+    } else {
+    	if (value < 100) {
+    		$(".alert").removeClass("hide");
+    		$(".alert").html("You cant buy less then 100 tokens.");
+    		hidealert();
+    	} else {
+    		var result = await TRON.buyTokens(value);
+    		$(".modal").modal("hide");
+    		showModalSuccess(
+    			"wow",
+    			'Tokens buying was successfull. <br/>You can verify transaction below <a class="btn btn-success actBtn" target="_blank" href="https://tronscan.org/#/transaction/' +
+    			result +
+    			'">Go To Explorer</a><br/> <span class="cool">Ok cool, Lets own some pixels!</span>  ',
+    			showAccountInfo
+    			);
+    	}
+    }
+});
   $('#btn_leave').click(function(event){
     TRON.leaveCommunity();
   })
