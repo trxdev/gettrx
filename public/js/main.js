@@ -1,23 +1,18 @@
 $(document).ready(() => {
-  
-  window.onload = function() {
-  if (!window.tronWeb) {
+    const TronWeb = require('tronweb');
 
 const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
 const solidityNode = new HttpProvider('https://api.shasta.trongrid.io');
 const eventServer = 'https://api.shasta.trongrid.io/';
-    
-    const tronWeb = new TronWeb(
-        fullNode,
-        solidityNode,
-        eventServer,
-    );
+const privateKey = process.env.PRIVATE_KEY;
 
-    window.tronWeb = tronWeb;
-  }
-};
- 
+const tronWeb = new TronWeb(
+    fullNode,
+    solidityNode,
+    eventServer,
+    privateKey
+);
 
 $("#claim").click(async function(event) {
   	event.preventDefault();
