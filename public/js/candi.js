@@ -7,7 +7,7 @@ var TRON={
     },
 
     transferCandy:async function(){
-       console.log(await this.contractInstance.buyTokens().send());
+       console.log(await this.contractInstance.transferCandy().send());
         return await this.contractInstance.transferCandy().send();
     },    
 }
