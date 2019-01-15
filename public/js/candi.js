@@ -15,7 +15,7 @@ var TRON={
         //return (await this.contractInstance.getCandy(123).call());
     },     
 userTotalPixels:async function(){
-        return (await this.contractInstance.userTotalPixels(tronWeb.defaultAddress.hex).call());
+        console.log(return (await this.contractInstance.userTotalPixels(tronWeb.defaultAddress.hex).call()));
 }, 
 }
 
