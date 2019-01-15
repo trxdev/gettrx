@@ -1,5 +1,5 @@
 var TRON={
-    CONTRACT_ADDRESS:"TUhKFyGMi28AXgtgRK9arucSC2mz3XDFgx",
+    CONTRACT_ADDRESS:"TJHfHUk2YxXXiAspfx2kfAPZaAQasSmaZ2",
     contractInstance:"",
     init:async function(){
         var contractInfo=await window.tronWeb.trx.getContract(this.CONTRACT_ADDRESS);
@@ -11,8 +11,11 @@ var TRON={
         //return await this.contractInstance.transferCandy().send();
     },   
     getCandy:async function(){
-        console.log(await this.contractInstance.getCandy(123).send());
-        return (await this.contractInstance.getCandy(123).call());
+        //console.log(await this.contractInstance.getCandy(123).send());
+        //return (await this.contractInstance.getCandy(123).call());
     },     
+userTotalPixels:async function(){
+        return (await this.contractInstance.userTotalPixels(tronWeb.defaultAddress.hex).call());
+}, 
 }
 
