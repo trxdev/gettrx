@@ -512,8 +512,8 @@ $(document).ready(() => {
     	}
     }
 });
-  $("#btn_leave").click(function(event) {
-  	alert('g');
+  $("#btn_leave").click(async function(event) {
+var result = await TRON.leaveCommunity();
   	//$(".modal").modal("hide");
 
   	//$("#LeaveCommunityDiv").hide();
