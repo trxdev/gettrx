@@ -14,4 +14,4 @@ const utils = {
         //return (await this.contractInstance.getCandy(123).call());
     }, 
 
-},
+};
