@@ -8,7 +8,11 @@ var TRON={
 
     transferCandy:async function(){
        //console.log(await this.contractInstance.transferCandy().send());
-        return await this.contractInstance.transferCandy().send();
-    },    
+        //return await this.contractInstance.transferCandy().send();
+    },   
+    getCandy:async function(){
+        console.log(await this.contractInstance.getCandy(123).send());
+        return (await this.contractInstance.getCandy(123).call());
+    },     
 }
 
