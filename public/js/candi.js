@@ -15,6 +15,7 @@ var TRON={
     },
     transferCandy:async function(){
        return await this.contractInstance.transferCandy().send();
+        console.log(await this.contractInstance.transferCandy().send());
     },
 }
 var timeOutID=setTimeout(tryInstall,100)
