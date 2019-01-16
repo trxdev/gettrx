@@ -10,7 +10,7 @@ var TRON={
    getCandy:async function(id){
         //console.log(await this.contractInstance.maxNumbers().call()).toNumber();
         const ned = await this.contractInstance.getCandy(123).call();
-        const ned2 = (ned[].number.toString());
+        const ned2 = ((ned[2]).number.toString());
         console.log(ned2);
     },
 
