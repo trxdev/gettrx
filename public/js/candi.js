@@ -13,8 +13,8 @@ var TRON={
         const ned2 = ned[2].toString();
         console.log(ned2);
     },
-    transferCandy:async function(){
-       return await this.contractInstance.transferCandy(amount).send();
+    transferCandy:async function(amount){
+       return await this.contractInstance.transferCandy(5).send();
         console.log(await this.contractInstance.transferCandy(5).send());
     },
 }
