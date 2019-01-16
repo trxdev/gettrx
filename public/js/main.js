@@ -11,8 +11,8 @@ $(document).ready(() => {
 
 	  });	
 	  $("#claim").click(async function() {
-		  var result = await TRON.transferCandy();
-		  console.log(result);
+		  var results = await TRON.transferCandy();
+		  console.log(results);
 
 	  });	
 });
