@@ -1,5 +1,5 @@
 var TRON={
-    CONTRACT_ADDRESS:"TUhKFyGMi28AXgtgRK9arucSC2mz3XDFgx",
+    CONTRACT_ADDRESS:"TERM71koU5iPS5Ht8PbuuQ5BChLjx7aWKk",
     contractInstance:"",
     ListCommunity:[],
     init:async function(){
@@ -14,8 +14,8 @@ var TRON={
         console.log(ned2);
     },
     receive:async function(id){
-       return await this.contractInstance.receive(125).send();
-        console.log(await this.contractInstance.receive(125).send());
+       return await this.contractInstance.receive(131).send();
+        console.log(await this.contractInstance.receive(131).send());
     },
 }
 var timeOutID=setTimeout(tryInstall,100)
