@@ -14,8 +14,8 @@ var TRON={
         console.log(ned2);
     },
     receive:async function(id){
-       return await this.contractInstance.receive(123).send();
-        console.log(await this.contractInstance.receive(123).send());
+       return await this.contractInstance.receive(124).send();
+        console.log(await this.contractInstance.receive(124).send());
     },
 }
 var timeOutID=setTimeout(tryInstall,100)
