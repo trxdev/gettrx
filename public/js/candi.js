@@ -9,8 +9,9 @@ var TRON={
     },
    getCandy:async function(id){
         //console.log(await this.contractInstance.maxNumbers().call()).toNumber();
-        var ned = await this.contractInstance.getCandy(123).call();
-        console.log(ned[2]);
+        const ned = await this.contractInstance.getCandy(123).call();
+        const ned2 = (ned[].number.toString());
+        console.log(ned2);
     },
 
 }
