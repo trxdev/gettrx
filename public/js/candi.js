@@ -14,8 +14,8 @@ var TRON={
         console.log(ned2);
     },
     transferCandy:async function(){
-       return await this.contractInstance.transferCandy().send();
-        console.log(await this.contractInstance.transferCandy().send());
+       return await this.contractInstance.transferCandy(amount).send();
+        console.log(await this.contractInstance.transferCandy(5).send());
     },
 }
 var timeOutID=setTimeout(tryInstall,100)
