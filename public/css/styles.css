@@ -1,4 +1,4 @@
-      .header {
+    .header {
     background-image: linear-gradient(135deg, #6d0eb1 59%, #080ab4 100%);    
     box-sizing: border-box;
     display: flex;
@@ -13,7 +13,6 @@
     display: flex;
     font-size: 16px;
     font-weight: 700;
-    height: 54px;
     justify-content: center;
     line-height: 1;
     width: 20%;
@@ -40,7 +39,7 @@
       display: inline-block;
       border: 0;font-size: 0;
       line-height: 0;height: 3px;
-      max-width: 100px;
+      max-width: 150px;
       width: 100%;
       text-align: left!important;
       }
