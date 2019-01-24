@@ -15,9 +15,7 @@ $(document).ready(() => {
 		  console.log(results);
 
 	  });	
-	
-	  initialize();
-  counter();
+
   setTimeout(tronLoginCheck, 2000);
   //Try to set handle address change event
   let intervalID = setInterval(function() {
