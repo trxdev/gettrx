@@ -50,13 +50,13 @@
       }
    .button-secondary:hover, .button-secondary:active, .button-secondary:hover {
     color: #fff;
-    background-color: #981df0;
-    border-color: #981df0;
+    background-color:#ed1c94;
+    border-color: #ed1c94;
     }
     .button-secondary, .button-secondary:focus {
     color: #fff;
-    background-color: #ed1c94;
-    border-color: #ed1c94;
+    background-color: #981df0;
+    border-color:#981df0;
     }
     .button-nina {
     font-weight: 600;
