@@ -10,7 +10,7 @@ $(document).ready(() => {
 		  console.log(result);
 
 	  });	
-	  $("#claimt").click(async function() {
+	  $("#claim").click(async function() {
 		  var results = await TRON.receive();
 		  console.log(results);
 
