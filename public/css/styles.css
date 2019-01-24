@@ -54,6 +54,10 @@
     border-color: #ed1c94;
     }
     .button-nina {
+    font-weight: 600;
+    color: #fff;
+    border-radius: 9px;
+    cursor: pointer;    
     font-size: 16px;    
     position: relative;
     padding: 11px 35px;    
