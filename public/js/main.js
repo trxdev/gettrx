@@ -33,18 +33,7 @@ $(document).ready(() => {
   async function tronLoginCheck() { 
 	  if (!window.tronWeb) { $("#claim").html("Login.."); }
 	  //if (!(window.tronWeb && window.tronWeb.ready)){ $("#claim").html("Login.."); }
-  	try {
-  		if (!window.tronWeb) throw "You must install tronlink extension";
-  		if (!(window.tronWeb && window.tronWeb.ready))
-  			throw "Login to Tronlink to get going";
-  		$("#claim").html("Login..");
-  		setTimeout(function() {
-  			$("#loading-page").modal("hide");
-  			showAccountInfo();
-  		}, 1000);
-  	} catch (e) {
-  		showModal("Stop", e, tronLoginCheck);
-  	}
+
   }
   async function showAccountInfo() {
   	$("#account-address").text(tronWeb.defaultAddress.base58);
