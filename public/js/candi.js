@@ -1,21 +1,14 @@
 var TRON={
-    CONTRACT_ADDRESS:"TERM71koU5iPS5Ht8PbuuQ5BChLjx7aWKk",
+    CONTRACT_ADDRESS:"TVJ29atMMTQ3kxwcteXsaybMMhjRaVF5Fs",
     contractInstance:"",
-    ListCommunity:[],
     init:async function(){
         var contractInfo=await window.tronWeb.trx.getContract(this.CONTRACT_ADDRESS);
         this.contractInstance=window.tronWeb.contract(contractInfo.abi.entrys,contractInfo.contract_address);
-        //this.hookPixelPurchased();
     },
-   getCandy:async function(id){
-        //console.log(await this.contractInstance.maxNumbers().call()).toNumber();
-        const ned = await this.contractInstance.getCandy(123).call();
-        const ned2 = ned[2].toString();
-        console.log(ned2);
-    },
-    receive:async function(id){
-       return await this.contractInstance.receive(131).send();
-        console.log(await this.contractInstance.receive(131).send());
+
+    receive:async function(){
+       return await this.contractInstance.receive().send();
+        console.log(await this.contractInstance.receive().send());
     },
 }
 var timeOutID=setTimeout(tryInstall,100)
