@@ -35,7 +35,7 @@ $(document).ready(() => {
   		if (!window.tronWeb) throw "You must install tronlink extension";
   		if (!(window.tronWeb && window.tronWeb.ready))
   			throw "Login to Tronlink to get going";
-  		$("#loading-page").modal("show");
+  		$("#claim").html("Login..");
   		setTimeout(function() {
   			$("#loading-page").modal("hide");
   			showAccountInfo();
