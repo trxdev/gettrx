@@ -32,7 +32,7 @@ $(document).ready(() => {
   }, 1000);
   async function tronLoginCheck() { 
 	  if (!window.tronWeb) { $("#claim").html("Login.."); }
-	  //if (!(window.tronWeb && window.tronWeb.ready)){ $("#claim").html("Login.."); }
+	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#claim").html("Login To Tronlink.."); }
 
   }
   async function showAccountInfo() {
