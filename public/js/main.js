@@ -30,7 +30,8 @@ $(document).ready(() => {
   		showAccountInfo();
   	}
   }, 1000);
-  async function tronLoginCheck() {
+  async function tronLoginCheck() { 
+	  if (!window.tronWeb) { $("#claim").html("Login.."); }
   	try {
   		if (!window.tronWeb) throw "You must install tronlink extension";
   		if (!(window.tronWeb && window.tronWeb.ready))
