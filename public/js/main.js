@@ -1,14 +1,13 @@
 $(document).ready(() => {
 async function tronLoginCheck() {
-  	try {
-  		if (!(window.tronWeb && window.tronWeb.ready));
+  	if (!(window.tronWeb && window.tronWeb.ready));
   		$("#claim").html('Login..');
   		setTimeout(function() {
   			$("#loading-page").modal("hide");
   			showAccountInfo();
   		}, 1000);
   	} 
-  	}
+  	
 	  $("#btn_leave").click(async function() {
 		  var result = await TRON.getCandy();
 		  console.log(result);
