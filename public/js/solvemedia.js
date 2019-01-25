@@ -8,8 +8,7 @@
 /**
  * Module dependencies.
  */
-var crypto = require('crypto'),
-    http   = require('http');
+var http   = require('http');
 
 
 //constants
