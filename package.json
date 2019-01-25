@@ -16,4 +16,38 @@
   },
   "author": "LickTheCheese",
   "license": "ISC"
+},
+{
+  "name": "solvemedia",
+  "description": "A Node.JS module that handles calls to SolveMedia API (display and verification).",
+  "version": "1.0.2",
+  "author": "Tomas Dias Almeida <tomas.almeida@gmail.com> (twitter @tomasalmeida)",
+  "repository": {
+    "type": "git",
+    "url": "git:github.com:tomasalmeida/solvemedia-nodejs.git"
+  },
+  "dependencies": {
+    "crypto": ">= 0.0.0"
+    },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "main": "./lib/solvemedia",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solvemedia",
+    "captcha",
+    "solve",
+    "media"
+  ],
+  "homepage": "https://github.com/tomasalmeida/solvemedia-nodejs/",
+  "bugs":{
+    "url" : "http://github.com/tomasalmeida/solvemedia-nodejs/issues",
+    "email" : "tomas.almeida@gmail.com"
+  },
+  "license" : "Apache v2 License"
 }
