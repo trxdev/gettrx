@@ -180,4 +180,4 @@ function validateSMResponse(content, challenge, authKey, cbFromValidateSMRespons
     
 }
 
-module.exports = SolveMedia;
+//module.exports = SolveMedia;
