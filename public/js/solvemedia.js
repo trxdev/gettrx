@@ -8,8 +8,6 @@
 /**
  * Module dependencies.
  */
-var http   = require('http');
-
 
 //constants
 var API_SERVER = 'verify.solvemedia.com';
