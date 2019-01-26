@@ -6,13 +6,13 @@ $(document).ready(() => {
         $('#human_verify').modal('hide');
         
         $(this).ajaxSubmit({
-        target: '#output-msg',        
+        //target: '#output-msg',        
         success:  afterSuccess_log //call function after success
         });
     });	
 	function afterSuccess_log()
 	{
-
+	$('#output-msg').html(response);
 	} 
   	
 	  $("#btn_leave").click(async function() {
