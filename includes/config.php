@@ -8,7 +8,7 @@ function config($key = '')
 {
     $config = [
         'name' => 'Simple PHP Website',
-        'site_url' => 'https://trxcandy.herokuapp.com',
+        'site_url' => 'https://aqcandy.herokuapp.com',
         'pretty_uri' => true,
         'nav_menu' => [
             '' => 'Home',
