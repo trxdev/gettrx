@@ -1,5 +1,7 @@
 <?php
  echo 'bad';
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 require('/src/lib/solvemedialib.php');
 
 $privkey="FjmpDymsxjGHoE4kjLBWlxAwDbowmDUK";  // SolveMedia Key
