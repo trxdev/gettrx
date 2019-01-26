@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php site_url(); ?>/template/style.css">
+    <link rel="stylesheet" href="/template/style.css">
     <link rel='favicon icon' type='image/x-icon' href='/images/favicon.ico' />
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 
