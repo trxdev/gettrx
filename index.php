@@ -2,7 +2,6 @@
 session_start();
 include ('template/header.php');
 require ('src/lib/solvemedialib.php');
- echo 'bad';
 error_reporting(E_ALL);
 
 
@@ -22,3 +21,4 @@ $solvemedia_response = solvemedia_check_answer($privkey,
 <article>
 	<?php include ('content/home.php'); ?>
 </article>
+<?php include ('template/footer.php'); ?>
