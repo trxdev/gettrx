@@ -36,13 +36,9 @@
                   <div class="modal-new" style="padding: 60px">
                     <form>
                       <div class="form-group">
-                        <label for="">Community</label>
-                        <input id="add_community" type="text" class="form-control" placeholder="Community">
-                        <div class="alert alert-success hide">
-                          Insert your name.
-                        </div>
+                        <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
                       </div>
-                      <button id="pay" type="submit" class="btn btn-primary">Pay</button>
+                      <button id="pay" type="submit" class="btn btn-primary">CLAIM</button>
                     </form>
                   </div>
                 </div>
