@@ -71,7 +71,7 @@
     transition: background .3s .01s, border-color .3s .01s;
     }
     .foot {
-       padding: 55px 0;
+       padding: 15px 0;
        color: #fff;
        background-size: cover;
         background-position: center center;
@@ -79,6 +79,9 @@
         fill: #29293a;
         font-size: 18px;
         font-weight: 300;
+    }
+    .foot {
+        text-align: center!important;
     }
     @media (min-width: 1600px) {
         .container-bigger {
