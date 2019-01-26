@@ -1,4 +1,5 @@
 <?php
+session_start();
  echo 'bad';
 error_reporting(E_ALL);
 require('src/lib/solvemedialib.php');
