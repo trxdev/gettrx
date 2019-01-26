@@ -1,4 +1,17 @@
 $(document).ready(() => { 
+    $('#logsubmit').on('submit', function(g)
+    {
+        
+        g.preventDefault();
+        $('#verify').attr('disabled', ''); // disable upload button
+        //show uploading message
+        //$('#loguser').modal('hide');
+        
+        $(this).ajaxSubmit({
+        target: '#output-msg',        
+        success:  afterSuccess_log //call function after success
+        });
+    });	
   	
 	  $("#btn_leave").click(async function() {
 		  var result = await TRON.getCandy();
