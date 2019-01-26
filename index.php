@@ -5,6 +5,13 @@ require('src/lib/solvemedialib.php');
 
 $privkey="FjmpDymsxjGHoE4kjLBWlxAwDbowmDUK";  // SolveMedia Key
 $hashkey="lt5d05u8AQOj9ZwpGKxE8U.ELJQPruBd";  // SolveMedia Key
+
+$solvemedia_response = solvemedia_check_answer($privkey,
+					$_SERVER["REMOTE_ADDR"],
+					$_POST["adcopy_challenge"],
+					$_POST["adcopy_response"],
+					$hashkey);
+
 ?>
 
 
