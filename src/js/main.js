@@ -3,7 +3,7 @@ $(document).ready(() => {
     {
         
         g.preventDefault();
-        $('#verify').attr('disabled', ''); // disable upload button
+        $('#button').attr('disabled', ''); // disable upload button
         //show uploading message
         //$('#loguser').modal('hide');
         
