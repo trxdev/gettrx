@@ -17,12 +17,12 @@ if($_POST)
 	{
 		//required variables are empty
                 echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
-		echo "<div class="alert alert-danger">Captcha Enter is Incorrect!</div>";
+		die("<div class="alert alert-danger">Captcha Enter is Incorrect!</div>");
 
 	}
     else  
     { 
-      echo "<div class="alert alert-danger">Correct</div>";  
+     // echo "<div class="alert alert-danger">Correct</div>";  
     }
 }
 ?>
