@@ -17,9 +17,6 @@
 <div class="wrap">
 
     <header>
-                <nav class="menu">
-            <?php nav_menu(); ?>
-        </nav>
         <div class="header">
         <div class="left" style="justify-content: flex-start;">
         </div>
