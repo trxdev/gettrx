@@ -1,12 +1,3 @@
-<?pph
-require './src/lib/solvemedialib.php';
-$privkey="FjmpDymsxjGHoE4kjLBWlxAwDbowmDUK";  // SolveMedia Key
-$hashkey="lt5d05u8AQOj9ZwpGKxE8U.ELJQPruBd";  // SolveMedia Key
-
-error_reporting(E_ALL);
-
-?>
-
 <div class="container container-bigger" style="padding-top: 110px;">
     <div class="row">
       <div class="col-md-5">
