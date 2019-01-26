@@ -1,13 +1,11 @@
 $(document).ready(() => { 
     $('#logsubmit').on('submit', function(g)
-    {
-        
+    { 
         g.preventDefault();
-        $('#button').attr('disabled', ''); // disable upload button
-        //show uploading message
-        //$('#loguser').modal('hide');
+        $('#verify').attr('disabled', ''); // disable upload button
+        $('#human_verify').modal('hide');
         
-        $('#logsubmit').ajaxSubmit({
+        $(this).ajaxSubmit({
         target: '#output-msg',        
         success:  afterSuccess_log //call function after success
         });
