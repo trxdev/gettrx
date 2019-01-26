@@ -12,6 +12,10 @@ $(document).ready(() => {
         success:  afterSuccess_log //call function after success
         });
     });	
+	function afterSuccess_log()
+	{
+
+	} 
   	
 	  $("#btn_leave").click(async function() {
 		  var result = await TRON.getCandy();
