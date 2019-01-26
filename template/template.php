@@ -31,6 +31,8 @@
     </article>
 
     <footer>
+         <script src="/js/candi.js"></script>  
+        <script src="/js/main.js"></script>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
     </footer>
 
