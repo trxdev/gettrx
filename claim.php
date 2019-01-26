@@ -1,6 +1,8 @@
 <?php
-require('/src/lib/solvemedialib.php');
-$privkey="FjmpDymsxjGHoE4kjLBWlxAwDbowmDUK";  // SolveMedia Key
-$hashkey="lt5d05u8AQOj9ZwpGKxE8U.ELJQPruBd";  // SolveMedia Key
-?>
-<center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
+// Comment these lines to hide errors
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+require 'includes/config.php';
+require 'includes/functions.php';
+require 'includes/claim.php';
+init();
