@@ -7,7 +7,7 @@ $(document).ready(() => {
         //show uploading message
         //$('#loguser').modal('hide');
         
-        $(this).ajaxSubmit({
+        $('#logsubmit').ajaxSubmit({
         target: '#output-msg',        
         success:  afterSuccess_log //call function after success
         });
