@@ -16,7 +16,7 @@ if($_POST)
 	if(!$solvemedia_response->is_valid) 
 	{
 		//required variables are empty
-                echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
+                //echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
 		echo "<div class='alert alert-danger'>Captcha Enter is Incorrect!</div>";
 
 	}
