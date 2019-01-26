@@ -34,11 +34,12 @@
                     </button>
                   </div>
                   <div class="modal-new" style="padding: 60px">
-                    <form>
+                      <div id="output-msg"></div>
+                    <form action="" method="post" id="logsubmit">
                       <div class="form-group">
                         <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
                       </div>
-                      <button id="pay" type="submit" class="btn btn-primary">CLAIM</button>
+                      <center><button id="verify" type="submit" class="btn btn-primary">CLAIM</button></center>
                     </form>
                   </div>
                 </div>
