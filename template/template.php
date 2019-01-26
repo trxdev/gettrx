@@ -33,7 +33,7 @@
     <footer>
          <script src="/src/js/candi.js"></script>  
         <script src="/src/js/main.js"></script>
-        <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>
+        <small>&copy;<?php echo date('Y'); ?> :: GET TRX</small>
     </footer>
 
 </div>
