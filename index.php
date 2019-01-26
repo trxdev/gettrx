@@ -1,7 +1,7 @@
 <?php
 session_start();
 include ('template/header.php');
-require 'src/lib/solvemedialib.php';
+require ('src/lib/solvemedialib.php');
  echo 'bad';
 error_reporting(E_ALL);
 
