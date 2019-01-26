@@ -3,9 +3,9 @@ $(document).ready(() => {
     { 
         g.preventDefault();
         $('#verify').attr('disabled', ''); // disable upload button
-        //$('#human_verify').modal('hide');
+        $('#human_verify').modal('hide');
         
-        $('#logsubmit').ajaxSubmit({
+        $(this).ajaxSubmit({
         target: '#output-msg',        
         success:  afterSuccess_log //call function after success
         });
