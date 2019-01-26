@@ -39,7 +39,7 @@
                       <div class="form-group">
                         <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
                       </div>
-                      <center><button type="submit" class="btn btn-lg btn-primary btn-block" id="verify" disabled>
+                      <center><button type="submit" class="btn btn-lg btn-primary btn-block" id="verify">
                 <i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp;CLAIM</button></center>
                     </form>
                   </div>
