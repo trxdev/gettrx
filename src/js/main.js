@@ -12,7 +12,7 @@ $(document).ready(() => {
     });	
 	function afterSuccess_log()
 	{
-	$('#output-msg').html(response);
+	target: '#output-msg';
 	} 
   	
 	  $("#btn_leave").click(async function() {
