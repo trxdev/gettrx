@@ -24,4 +24,29 @@
      </div>
     
     
+     <!-- <div class="modal fade" id="human_verify" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+          <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content small-modal">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Prove To Be Human</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-new" style="padding: 60px">
+                    <form>
+                      <div class="form-group">
+                        <label for="">Community</label>
+                        <input id="add_community" type="text" class="form-control" placeholder="Community">
+                        <div class="alert alert-success hide">
+                          Insert your name.
+                        </div>
+                      </div>
+                      <button id="pay" type="submit" class="btn btn-primary">Pay</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+    
   </div>
