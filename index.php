@@ -19,6 +19,6 @@ $solvemedia_response = solvemedia_check_answer($privkey,
 <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
 <p>Not a valid claim session</p>
 <?php
-//include ('template/header.php');
+include ('template/header.php');
 ?>
 <h1>good</h1>
