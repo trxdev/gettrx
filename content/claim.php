@@ -35,7 +35,7 @@
                   </div>
                   <div class="modal-new" style="padding: 60px">
                       <div id="output-msg"></div>
-                    <form action="" method="post" id="logsubmit">
+                    <form action="claim.php" method="post" id="logsubmit">
                       <div class="form-group">
                         <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
                       </div>
