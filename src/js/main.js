@@ -1,17 +1,24 @@
 $(document).ready(() => { 
-    $('#logsubmit').on('submit', function(g)
+	var options = { 
+		target: '#output-msg', 
+		url: 'claim.php',
+		success: function(){
+		},
+	}
+    $('#logsubmit').submit(function()
     { 
         //g.preventDefault();
         $('#verify').attr('disabled', ''); // disable upload button
         $('#human_verify').modal('hide');
         
-        $(this).ajaxSubmit({
-	target: '#output-msg',  	
+        $(this).ajaxSubmit(options)
+	    return false
+	//target: '#output-msg',  	
 	
               
-        success:  afterSuccess_log()//call function after success
-        });
-	 return false;
+        //success:  afterSuccess_log()//call function after success
+        //});
+	 //return false;
     });	
 	function afterSuccess_log()
 	{
