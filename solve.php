@@ -17,10 +17,10 @@ if($_POST)
 		echo "<script>$('#verify').click(function(){location.reload();});</script>"; 
 	} else  { 
 	    echo '<script>let ditp = (async function(){
-	    var can = await TRON.canReceive(tronWeb.defaultAddress.base58);
+	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    console.log(tronWeb.defaultAddress.hex);
 	    console.log(can);
-	    if (can == false) {
+	    if (check == can) {
 	    	    //$("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); 
