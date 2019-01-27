@@ -12,11 +12,11 @@ if($_POST)
 	if(!$solvemedia_response->is_valid) 
 	{
                 echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
-		echo die("<div class="alert alert-danger">Captcha Enter is Incorrect!</div>");
+		echo die("<div class='alert alert-danger'>Captcha Enter is Incorrect!</div>");
 	}
     else  
     { 
-     echo "<div class="alert alert-success">Correct</div>";  
+     //echo "<div class="alert alert-success">Correct</div>";  
     }
 }
 ?>
