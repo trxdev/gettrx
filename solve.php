@@ -21,7 +21,7 @@ if($_POST)
     else  
     { 
 	    echo '<script>let mint = (async function(){
-	    var check = await TRON.canReceive() })();;
+	    var check = await TRON.canReceive() })();
 	    console.log(check);
 	    if (check == true) {
 		    $("#verify").html("can receive");
