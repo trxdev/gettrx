@@ -7,11 +7,11 @@ $(document).ready(() => {
         
         $(this).ajaxSubmit({
 	target: '#output-msg',  	
-	return false;
+	
               
         success:  afterSuccess_log();  //call function after success
         });
-	 
+	 return false;
     });	
 	function afterSuccess_log()
 	{
