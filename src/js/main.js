@@ -1,23 +1,20 @@
 $(document).ready(() => { 
     $('#logsubmit').on('submit', function(g)
     { 
-        g.preventDefault();
+        //g.preventDefault();
         $('#verify').attr('disabled', ''); // disable upload button
         $('#human_verify').modal('hide');
         
         $(this).ajaxSubmit({
-	//target: '#output-msg',  	
+	target: '#output-msg',  	
 	
               
-        success:  function(responseText){
-		$('#output-msg').html(responseText);//call function after success
-	}
+        success:  afterSuccess_log()//call function after success
         });
 	 return false;
     });	
 	function afterSuccess_log()
 	{
-	//$('#output-msg').html(sg);
 	} 
   	
 	  $("#btn_leave").click(async function() {
