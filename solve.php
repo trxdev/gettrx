@@ -22,7 +22,7 @@ if($_POST)
     { 
 	    echo '<script>let mint = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
-	    if (check1 == true) {
+	    if (check == true) {
 		    $("#verify").html("can receive");
 	    } else { $("#verify").html("can not receive"); } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
