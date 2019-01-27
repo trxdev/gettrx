@@ -28,7 +28,7 @@ if($_POST)
 	    	    $("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); 
-	    	     $('#human_verify').modal('hide');
+	    	     $("#human_verify").modal("hide");
 		     var results = await TRON.receive();
 	    } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
