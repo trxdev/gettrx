@@ -7,7 +7,7 @@ $(document).ready(() => {
         
         $(this).ajaxSubmit({
         //target: '#output-msg',        
-        success:  function (msg) { afterSuccess_log(); } //call function after success
+        success:  afterSuccess_log(msg);  //call function after success
         });
 	 
     });	
