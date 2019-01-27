@@ -25,7 +25,7 @@ if($_POST)
 		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); 
 	    	     //$("#human_verify").modal("hide");
-		     //var results = await TRON.receive();
+		     var results = await TRON.receive();
 	    } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
