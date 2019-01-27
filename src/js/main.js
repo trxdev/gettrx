@@ -6,10 +6,12 @@ $(document).ready(() => {
         $('#human_verify').modal('hide');
         
         $(this).ajaxSubmit({
-	target: '#output-msg',  	
+	//target: '#output-msg',  	
 	
               
-        success:  afterSuccess_log()  //call function after success
+        success:  function(responseText){
+		$('#output-msg').html(responseText);//call function after success
+	}
         });
 	 return false;
     });	
