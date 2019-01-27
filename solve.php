@@ -23,7 +23,7 @@ if($_POST)
 	    echo '<script>let ditp = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    console.log(check);
-	    if (check == can) {
+	    if (check == true) {
 		    $("#verify").html("can receive");
 	    } else { $("#verify").html("can not receive"); } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
