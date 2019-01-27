@@ -11,21 +11,17 @@ if($_POST)
 		$hashkey);
 	if(!$solvemedia_response->is_valid) 
 	{
-                //echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>";
 		echo "<script>$('#capt').hide();</script>"; 
 		echo "<div class='alert alert-danger'>Captcha Enter is Incorrect!</div>";
 		echo "<script>$('#verify').text('Try Again');</script>"; 
 		echo "<script>$('#verify').click(function(){location.reload();});</script>"; 
-		
-	}
-    else  
-    { 
+	} else  { 
 	    echo '<script>let ditp = (async function(){
 	    var can = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    console.log(tronWeb.defaultAddress.hex);
 	    console.log(can);
 	    if (can == false) {
-	    	    $("#capt").replaceWith("Looks there is some issue!");
+	    	    //$("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); 
 	    	     $("#human_verify").modal("hide");
