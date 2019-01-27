@@ -7,13 +7,13 @@ $(document).ready(() => {
         
         $(this).ajaxSubmit({
         target: '#output-msg',        
-        success:  function () { afterSuccess_log(); } //call function after success
+        success:  function (msg) { afterSuccess_log(); } //call function after success
         });
 	    return: false;
     });	
 	function afterSuccess_log()
 	{
-	//target: '#output-msg';
+	$('#output-msg').html(sg);
 	} 
   	
 	  $("#btn_leave").click(async function() {
