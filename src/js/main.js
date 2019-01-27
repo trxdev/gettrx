@@ -6,7 +6,7 @@ $(document).ready(() => {
         $('#human_verify').modal('hide');
         
         $(this).ajaxSubmit({
-        target: '#output-msg',        
+        //target: '#output-msg',        
         success:  function (msg) { afterSuccess_log(); } //call function after success
         });
 	 
