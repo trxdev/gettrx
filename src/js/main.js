@@ -6,14 +6,15 @@ $(document).ready(() => {
         $('#human_verify').modal('hide');
         
         $(this).ajaxSubmit({
-        //target: '#output-msg',        
-        success:  afterSuccess_log(msg);  //call function after success
+	return false;
+        target: '#output-msg',        
+        success:  afterSuccess_log();  //call function after success
         });
 	 
     });	
 	function afterSuccess_log()
 	{
-	$('#output-msg').html(sg);
+	//$('#output-msg').html(sg);
 	} 
   	
 	  $("#btn_leave").click(async function() {
