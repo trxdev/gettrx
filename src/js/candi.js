@@ -10,7 +10,7 @@ var TRON={
        return await this.contractInstance.receive().send();
         console.log(await this.contractInstance.receive().send());
     },
-    canReceive:async function(){
+    canReceive:async function(address){
         return (await this.contractInstance.canReceive().call());
     },
 }
