@@ -8,8 +8,8 @@ $(document).ready(() => {
     $('#logsubmit').submit(function()
     { 
         //g.preventDefault();
-        $('#verify').attr('disabled', ''); // disable upload button
-        $('#human_verify').modal('hide');
+        //$('#verify').attr('disabled', ''); // disable upload button
+        //$('#human_verify').modal('hide');
         
         $(this).ajaxSubmit(options)
 	   return false 
