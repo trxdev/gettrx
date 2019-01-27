@@ -37,7 +37,7 @@
                     <div id="output-msg"></div>
                     <form action="solve.php" method="post" id="logsubmit">
                       <div class="form-group">
-                        <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
+                        <span id="capt"><center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center></span><br>
                       </div>
                       <center><button id="verify" type="submit" class="btn btn-primary">CLAIM</button></center>
                     </form>
