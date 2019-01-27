@@ -20,7 +20,7 @@ if($_POST)
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    console.log(tronWeb.defaultAddress.hex);
 	    console.log(check);
-	    if (check === true) {
+	    if (check == {can: true}) {
 	    	    //$("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); 
