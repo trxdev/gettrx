@@ -24,7 +24,7 @@ if($_POST)
 	    var can = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    console.log(tronWeb.defaultAddress.hex);
 	    console.log(can);
-	    if (can != true) {
+	    if (can == false) {
 		    $("#verify").html("can not receive");
 	    } else{ $("#verify").html("can receive"); } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
