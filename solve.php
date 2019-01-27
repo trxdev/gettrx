@@ -20,12 +20,12 @@ if($_POST)
 	}
     else  
     { 
-	    echo '<script>let mint = (async function(){
+	    echo '<script>
 	    var check = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
 	    console.log(check);
 	    if (check == true) {
 		    $("#verify").html("can receive");
-	    } else { $("#verify").html("can not receive"); } })();</script>';
+	    } else { $("#verify").html("can not receive"); }</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
     }
