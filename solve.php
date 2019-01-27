@@ -21,7 +21,7 @@ if($_POST)
     else  
     { 
      echo "<script>$('#human_verify').modal('hide');</script>"; 
-     //echo "<script>$('#human_verify').modal('hide');</script>"; 	    
+     echo "<script>var results = await TRON.receive();</script>"; 	    
     }
 }
 ?>
