@@ -26,7 +26,7 @@ if($_POST)
 	    console.log(can);
 	    if (can == false) {
 		    $("#verify").html("can not  receive sorry");
-	    } else if (can == true){ $("#verify").html("can receive"); } })();</script>';
+	    } else (can == true){ $("#verify").html("can receive"); } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
     }
