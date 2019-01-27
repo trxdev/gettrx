@@ -21,9 +21,9 @@ if($_POST)
     else  
     { 
 	    echo '<script>let mint = (async function(){
-	    var check = await TRON.canReceive() })();
+	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58) })();
 	    console.log(check);
-	    if (check == true) {
+	    if (check == can) {
 		    $("#verify").html("can receive");
 	    } else { $("#verify").html("can not receive"); }</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
