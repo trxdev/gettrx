@@ -1,7 +1,7 @@
 $(document).ready(() => { 
 	var options = { 
 		target: '#output-msg', 
-		url: 'claim.php',
+		url: 'solve.php',
 		success: function(){
 		},
 	}
