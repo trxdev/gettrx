@@ -15,7 +15,7 @@
           <div><iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=TX5FVE00GYSPK" style="overflow:hidden;width:468px;height:60px;" frameborder="0"></iframe></div>
           <h2 style="font-weight: 500;text-transform: uppercase;color: #29293a;margin-bottom: 0;letter-spacing: .02em;line-height: 1.375;text-align: left!important;">Tron Faucet To Claim TRX</h2>
           <div class="divider"></div>
-            <div id="output-msg" class="alert alert-danger"></div>
+            <div id="output-msg"></div>
           <p style="margin-top: 40px;letter-spacing: .02em;text-align: left!important;">Prove you are human being!<br/><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#human_verify"><span id="human">Prove To Be Human</span></a></p>
         </div>
       </div>
