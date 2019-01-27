@@ -14,6 +14,9 @@ if($_POST)
                 //echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>";
 		echo "<script>$('#capt').hide();</script>"; 
 		echo "<div class='alert alert-danger'>Captcha Enter is Incorrect!</div>";
+		echo "<script>$('#verify').text('Try Again');</script>"; 
+		echo "<script>$('#verify').click(function(){location.reload();});</script>"; 
+		
 	}
     else  
     { 
