@@ -9,7 +9,7 @@ $(document).ready(() => {
         target: '#output-msg',        
         success:  function (msg) { afterSuccess_log(); } //call function after success
         });
-	    return: false;
+	 
     });	
 	function afterSuccess_log()
 	{
