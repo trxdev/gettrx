@@ -27,7 +27,10 @@ if($_POST)
 	    if (can == false) {
 	    	    $("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
-	    } else { $("#verify").html("can receive"); } })();</script>';
+	    } else { $("#verify").html("can receive"); 
+	    	     $('#human_verify').modal('hide');
+		     var results = await TRON.receive();
+	    } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
     }
