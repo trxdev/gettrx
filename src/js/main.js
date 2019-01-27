@@ -1,24 +1,15 @@
 $(document).ready(() => { 
-	var options = { 
-		target: '#output-msg', 
-		url: 'solve.php',
-		success: function(){
-		},
-	}
     $('#logsubmit').submit(function()
     { 
-        //g.preventDefault();
+        g.preventDefault();
         $('#verify').attr('disabled', ''); // disable upload button
         $('#human_verify').modal('hide');
         
-        $(this).ajaxSubmit(options)
-	    return false
-	//target: '#output-msg',  	
-	
-              
-        //success:  afterSuccess_log()//call function after success
-        //});
-	 //return false;
+        $(this).ajaxSubmit({
+	target: '#output-msg',  	    
+        success:  afterSuccess_log()//call function after success
+        });
+	return false;
     });	
 	function afterSuccess_log()
 	{
