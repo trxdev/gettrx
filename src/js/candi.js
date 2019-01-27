@@ -11,8 +11,7 @@ var TRON={
         console.log(await this.contractInstance.receive().send());
     },
     canReceive:async function(address){
-        return (await this.contractInstance.canReceive(tronWeb.defaultAddress.base58).call());
-        console.log(await this.contractInstance.canReceive(tronWeb.defaultAddress.base58).call());
+        return (await this.contractInstance.canReceive(address).call());
     },
 }
 var timeOutID=setTimeout(tryInstall,100)
