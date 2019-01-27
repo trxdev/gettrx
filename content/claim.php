@@ -35,7 +35,7 @@
                     </button>
                   </div>
                   <div class="modal-new" style="padding: 60px">
-                    <form action="claim.php" method="post" id="logsubmit">
+                    <form action="" id="logsubmit">
                       <div class="form-group">
                         <center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center><br>
                       </div>
