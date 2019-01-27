@@ -11,7 +11,7 @@ if($_POST)
 		$hashkey);
 	if(!$solvemedia_response->is_valid) 
 	{
-                echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
+                //echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
 		echo die("<div class='alert alert-danger'>Captcha Enter is Incorrect!</div>");
 	}
     else  
