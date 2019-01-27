@@ -17,7 +17,7 @@ if($_POST)
 	{
 		//required variables are empty
                 //echo "<script>window.setTimeout(function(){location.reload(true)},200)</script>"; 
-		echo "Captcha Enter is Incorrect!";
+		echo die("Captcha Enter is Incorrect!");
 
 	}
     else  
