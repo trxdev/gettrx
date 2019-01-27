@@ -1,12 +1,18 @@
 $(document).ready(() => { 
-	var options = { target: '#output-msg' }; 
     $('#logsubmit').on('submit', function(g)
     { 
         g.preventDefault();
         $('#verify').attr('disabled', ''); // disable upload button
         $('#human_verify').modal('hide');
         
-        $(this).ajaxSubmit(options);
+        $(this).ajaxSubmit({
+	//target: '#output-msg',  	
+	
+              
+        success:  function(responseText){
+		$('#output-msg').html(responseText);//call function after success
+	}
+        });
 	 return false;
     });	
 	function afterSuccess_log()
