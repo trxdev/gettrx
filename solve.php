@@ -25,7 +25,7 @@ if($_POST)
 	    console.log(tronWeb.defaultAddress.hex);
 	    console.log(can);
 	    if (can == false) {
-	    	    $("#capt").replaceWith("<h2>"Looks there is some issue!"</h2>");
+	    	    $("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
