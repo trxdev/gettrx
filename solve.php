@@ -22,7 +22,8 @@ if($_POST)
     { 
 	    echo '<script>let ditp = (async function(){
 	    var can = await TRON.canReceive(tronWeb.defaultAddress.base58);
-	    console.log(tronWeb.defaultAddress.base58);
+	    console.log(tronWeb.defaultAddress.hex);
+	    console.log(can);
 	    if (can == true) {
 		    $("#verify").html("can receive");
 	    } else { $("#verify").html("can not receive"); } })();</script>';
