@@ -25,7 +25,8 @@ if($_POST)
 	    console.log(tronWeb.defaultAddress.hex);
 	    console.log(can);
 	    if (can == false) {
-		    $("#verify").html("can not  receive sorry");
+	    	    $('#capt').replaceWith('<h2>'Looks there is some issue!'</h2>');
+		    $("#verify").html("Reload...");
 	    } else { $("#verify").html("can receive"); } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
