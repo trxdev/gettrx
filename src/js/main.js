@@ -11,7 +11,7 @@ $(document).ready(() => {
               
         success:  afterSuccess_log();  //call function after success
         });
-	 return false;
+	 
     });	
 	function afterSuccess_log()
 	{
