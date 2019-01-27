@@ -9,7 +9,7 @@ $(document).ready(() => {
 	target: '#output-msg',  	
 	
               
-        success:  afterSuccess_log();  //call function after success
+        success:  afterSuccess_log()  //call function after success
         });
 	 
     });	
