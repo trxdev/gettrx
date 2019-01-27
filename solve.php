@@ -20,7 +20,8 @@ if($_POST)
 	}
     else  
     { 
-     //echo "<div class="alert alert-success">Correct</div>";  
+     echo "<script>$('#human_verify').modal('hide');</script>"; 
+     //echo "<script>$('#human_verify').modal('hide');</script>"; 	    
     }
 }
 ?>
