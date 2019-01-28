@@ -18,7 +18,7 @@ if($_POST)
 	} else  { 
 	    echo '<script>let ditp = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
-	    console.log(check);
+	    console.log(typeof check);
 	    if (typeof check == "true") {
 	    	    //$("#capt").replaceWith("Looks there is some issue!");
 		    $("#verify").html("Reload...");
