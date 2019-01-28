@@ -32,7 +32,7 @@ $(document).ready(() => {
   async function showAccountInfo() {
   	let addr = tronWeb.defaultAddress.base58;
 	//$("#account-address").text(tronWeb.defaultAddress.base58);
-    	$("#account-address").text(addr.slice(0,6)+"..."+addr.slice(-6));
+    	$("#account-address").text("<b>"addr.slice(0,6)+"..."+addr.slice(-6)"</b>");
     	$("#account-balance").text((await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000);
 	  
   }
