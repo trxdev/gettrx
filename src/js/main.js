@@ -33,6 +33,6 @@ $(document).ready(() => {
   	$("#account-address").text(tronWeb.defaultAddress.base58);
     	// $('#account-address').val(tronWeb.defaultAddress.base58);
     	$("#account-balance").text(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58));
-	  console.log(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58);
+	  console.log(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58));
   }
 });
