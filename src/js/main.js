@@ -19,10 +19,10 @@ $(document).ready(() => {
     setTimeout(()=>{
     console.log('hello');
     console.log(window.tronWeb);
-    if (window.tronWeb) console.log(window.tronWeb.ready);}, 500
+    if (window.tronWeb) console.log(window.tronWeb.ready);}, 2000
     )
 	
- setTimeout(tronLoginCheck, 500);
+ setTimeout(tronLoginCheck, 2000);
   //Try to set handle address change event
  let intervalID = setInterval(function() {
   	if (typeof window.tronWeb == "object") {
