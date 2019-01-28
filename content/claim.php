@@ -41,7 +41,7 @@
                     <div id="output-msg"></div>
                     <form action="solve.php" method="post" id="logsubmit">
                       <div class="form-group">
-                        <span id="capt"><center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8"); ?> </center></span><br>
+                        <span id="capt"><center><?php echo solvemedia_get_html("xLxIw6ibOZWL52J97WjID7wkCMJzave8", $use_ssl = true); ?></center></span><br>
                       </div>
                       <center><button id="verify" type="submit" class="button button-sm button-secondary button-nina">CLAIM</button></center>
                     </form>
