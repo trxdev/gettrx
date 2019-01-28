@@ -14,7 +14,14 @@ $(document).ready(() => {
         $(this).ajaxSubmit(options)
 	   return false 
     });	
-
+    console.log(window.tronWeb);
+    if (window.tronWeb) console.log(window.tronWeb.ready);
+    setTimeout(()=>{
+    console.log('hello');
+    console.log(window.tronWeb);
+    if (window.tronWeb) console.log(window.tronWeb.ready);}, 500
+    )
+	
  setTimeout(tronLoginCheck, 1000);
   //Try to set handle address change event
  let intervalID = setInterval(function() {
