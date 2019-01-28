@@ -22,10 +22,11 @@ if($_POST)
 	    console.log(Object.prototype.toString.call(check));
 	    if (check) {
 	    	    //$("#capt").replaceWith("Looks there is some issue!");
-		    $("#verify").html("Reload...");
-	    } else { $("#verify").html("can receive"); 
+		    $("#verify").html("Rceive...");
+		    var results = await TRON.receive();
+	    } else { $("#verify").html("Reload..."); 
 	    	     //$("#human_verify").modal("hide");
-		     var results = await TRON.receive();
+		     
 	    } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
