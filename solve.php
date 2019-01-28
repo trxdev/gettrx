@@ -23,7 +23,7 @@ if($_POST)
 		    var results = await TRON.receive();
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
-	    } else { $("#capt").replaceWith("<h3 style='color:red;'>Looks there is some issue!</h3>");
+	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
 	   	     $("#verify").html("Tr Again...");  
 		     setTimeout(function(){location.reload();}, 1000);
 	    } })();</script>';	    
