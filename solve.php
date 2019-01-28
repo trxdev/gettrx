@@ -19,11 +19,13 @@ if($_POST)
 	    echo '<script>let ditp = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
-		    $("#verify").html("Wait ...");
+		    $("#verify").html("Claiming ...");
 		    var results = await TRON.receive();
 		    $("#human_verify").modal("hide");
+		    setTimeout(function(){location.reload();}, 2000);
 	    } else { $("#capt").replaceWith("Looks there is some issue!");
-	   	     $("#verify").html("Reload...");    
+	   	     $("#verify").html("Reload...");  
+		     setTimeout(function(){location.reload();}, 3000);
 	    } })();</script>';
      //echo "<script>$('#human_verify').modal('hide');</script>"; 
      //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
