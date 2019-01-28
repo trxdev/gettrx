@@ -14,21 +14,6 @@ $(document).ready(() => {
         $(this).ajaxSubmit(options)
 	   return false 
     });	
-	  $("#btn_leave").click(async function() {
-		  var result = await TRON.getCandy();
-		  console.log(result);
-
-	  });
-	  $("#btn_leave").click(async function() {
-		  var result = await TRON.getCandy();
-		  console.log(result);
-
-	  });	
-	  $("#claim").click(async function() {
-		  var results = await TRON.receive();
-		  console.log(results);
-
-	  });	
 
  setTimeout(tronLoginCheck, 2000);
   //Try to set handle address change event
@@ -45,8 +30,8 @@ $(document).ready(() => {
   	}
   }, 1000);
   async function tronLoginCheck() { 
-	  //if (!window.tronWeb) { $("#claim").html("Login.."); }
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#claim").html("Login To Tronlink.."); }
+	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#verify").html("Login To Tronlink..").attr('disabled', ''); }
 
   }
   async function showAccountInfo() {
