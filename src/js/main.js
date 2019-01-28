@@ -30,8 +30,9 @@ $(document).ready(() => {
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#human").html("Login To Tronlink.."); }
   }
   async function showAccountInfo() {
-  	$("#account-address").text(tronWeb.defaultAddress.base58);
-    	// $('#account-address').val(tronWeb.defaultAddress.base58);
+  	let addr = tronWeb.defaultAddress.base58;
+	//$("#account-address").text(tronWeb.defaultAddress.base58);
+    	$("#account-address").text(addr.slice(0,6)+"..."+str.slice(-6));
     	$("#account-balance").text((await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000);
 	  
   }
