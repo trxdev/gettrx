@@ -30,9 +30,9 @@ $(document).ready(() => {
   	}
   }, 1000);
   async function tronLoginCheck() { 
-	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#claim").html("Login To Tronlink.."); }
+	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#claim").html("Login To Tronlink..").attr('disabled', ''); }
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#verify").html("Login To Tronlink..").attr('disabled', ''); }
-
+	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#human").html("Login To Tronlink..").attr('disabled', ''); }
   }
   async function showAccountInfo() {
   	$("#account-address").text(tronWeb.defaultAddress.base58);
