@@ -6,7 +6,7 @@
           <h6 class="incenter">CLAIM FREE TRX NOW</h6>
           <div class="incenter" style="margin:15px;"></div>
           <h5 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h5><br>
-          <center><p style="margin-top: 25px;letter-spacing: .02em;text-align: left!important;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></p></center>  
+          <div class="incenter"><p style="margin: 10px;letter-spacing: .02em;text-align: left!important;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></p></div>  
           <div class="incenter"><iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=D2SUKIIVOLPOL" style="overflow:hidden;width:300px;height:250px;" frameborder="0"></iframe></div>
         </div>
       </div>
@@ -19,7 +19,7 @@
             <p>You can claim 10,000 SUN (0.01 TRX) every 10 minutes. If you are looking to claim more then become a premium meber and enjoy more number of claims.</p>
             <p>To claim free TRON, You need to follow TRON Faucet on Twitter and Join Discord.</p>
             <p>To claim, prove you are human as accounts with suspecious activities gets blcklisted!</p>
-            <center><p style="margin-top: 40px;letter-spacing: .02em;text-align: left!important;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#human_verify"><span id="human">Prove To Be Human</span></a></p></center>
+            <div class="incenter"<p style="margin-top: 40px;letter-spacing: .02em;text-align: left!important;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#human_verify"><span id="human">Prove To Be Human</span></a></p></div>
         </div>
       </div>
       </div>
