@@ -22,13 +22,11 @@ if($_POST)
 		    $("#verify").html("Claiming ...");
 		    var results = await TRON.receive();
 		    $("#human_verify").modal("hide");
-		    setTimeout(function(){location.reload();}, 1000);
+		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
 	   	     $("#verify").html("Tr Again...");  
-		     setTimeout(function(){location.reload();}, 3000);
-	    } })();</script>';
-     //echo "<script>$('#human_verify').modal('hide');</script>"; 
-     //echo "<script>let mint = (async function(){var results = await TRON.receive();})();</script>"; 	    
+		     setTimeout(function(){location.reload();}, 1000);
+	    } })();</script>';	    
     }
 }
 ?>
