@@ -5,8 +5,9 @@
     </button>
 </div>
 <div class="modal-new" style="padding: 60px">
+    <h2>Will be started soon!</2>
     <h3>What is premium membership?</h3>
-    <p>Tron faucet offers premium mebership for its loyal users. With this mebership you can enjoy TRON claiming more rapidly.</p>
+    <p>Tron faucet offers premium membership for its loyal users. With this mebership you can enjoy TRON claiming more rapidly.</p>
     <h3>Types of premium membership?</h3>
     <p>Three types of premium meberships are available 1. Silver 2. Gold 3. Diamond</p>
     <h3>How to become premium member?</h3>
