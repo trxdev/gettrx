@@ -40,6 +40,8 @@ $(document).ready(() => {
 	  let timeto = (async function(){
 	  var timeleft = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
 	  console.log((timeleft.left).toString());
-	   })();		  
+	   })();	
+	  var now = new Date(Date.now());
+	  console.log(now);
   });
 });
