@@ -11,10 +11,7 @@
       </div>
       <div class="col-md-7">
         <div class="col-md-12" style="padding:35px;border: 1px solid #000;border-radius: 7px;background: #e9ecef;">
-          <h4 style="font-weight: 300;line-height: 1.41667;text-transform: none;color: #29293a;text-align: left!important;">GET FREE TRX :: <span id="account-address"></span> : <span id="account-balance"></span></h4>
-          <div><iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=TX5FVE00GYSPK" style="overflow:hidden;width:468px;height:60px;" frameborder="0"></iframe></div>
-          <h2 style="font-weight: 500;text-transform: uppercase;color: #29293a;margin-bottom: 0;letter-spacing: .02em;line-height: 1.375;text-align: left!important;">Tron Faucet To Claim TRX</h2>
-          <div class="divider"></div>
+            <div><?php include('template/info.php'); ?></div>
           <p style="margin-top: 40px;letter-spacing: .02em;text-align: left!important;">Tron is worls no.  cryptocurrency with a market cap of  . In last 24 hours tron coin volume remains with tron price right now trading at.<br>
 You can claim free ton on this tron faucet. We give away free 10,000 SUN (0.01 TRX) every 10 minutes. To claim free tron, you must follow rules and guidelines and should not do any activities that harm the urpose fo this faucet.</p>
         </div>
