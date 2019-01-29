@@ -3,13 +3,11 @@
         <div class="col-md-5">
             <div class="col-md-12" style="padding:45px;border: 1px solid #000;border-radius: 7px;background: #e9ecef;">
 
-                <h6 class="incenter">CLAIM FREE TRX NOW</h6>
-                <div class="incenter" style="margin:15px;"><a class="button button-sm button-secondary button-nina"><span id="claim">CLAIM</span></a></div>
+                <h6 class="incenter">CLAIM FREE TRX NOW<br>Every 10 Minutes</h6>
+                <div class="incenter" style="margin:15px;"><a href="claim.php" lass="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
                 <h5 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h5>
                 <br>
-                <div class="incenter">
-                    <iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=D2SUKIIVOLPOL" style="overflow:hidden;width:300px;height:250px;" frameborder="0"></iframe>
-                </div>
+                <div class="incenter"><?php echo $a; ?></div>
             </div>
         </div>
         <div class="col-md-7">
@@ -22,8 +20,6 @@
             </div>
         </div>
     </div>
-    <div class="incenter" style="margin-top:15px;">
-        <iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=LOQBU2V7573MQ" style="overflow:hidden;width:728px;height:90px;" frameborder="0"></iframe>
-    </div>
+    <div class="incenter" style="margin-top:15px;"><?php echo $c; ?></div>
 
 </div>
