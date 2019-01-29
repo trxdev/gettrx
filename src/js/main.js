@@ -47,7 +47,6 @@ $(document).ready(() => {
 	  
   }	
   $("#human").click(function(){
-	    $("#human").click(function(){
 
 	  let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
