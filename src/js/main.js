@@ -46,7 +46,7 @@ $(document).ready(() => {
 	  console.log(timeleft);
 		 console.log(timeSince);
 		  
-		  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
+		//  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
 		 
 	   }	
 	
