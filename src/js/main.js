@@ -30,18 +30,16 @@ $(document).ready(() => {
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#human").html("Login To Tronlink.."); }
   }
 
-	 //let recoverTime = 600;
+	  //let recoverTime = 600;
 	  //let now = Math.floor(new Date().getTime()/1000.0);
-	 async function timecheck(){
+	  async function timechecks(){
 	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
-		  console.log(lasttime);
-          let timeleft = (lasttime.time).toString();
+          console.log(lasttime);
+          //let timeleft = (lasttime.time).toString();
 	  //let timeSince = recoverTime - (now - timeleft);	  
-	  console.log(timeleft);
-		 console.log(timeSince);
-		  
-		//  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
-		 
+	  //console.log(timeleft);
+	  // console.log(timeSince);  
+	  //  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); } 
 	   }	
   async function showAccountInfo() {
   	let addr = tronWeb.defaultAddress.base58;
