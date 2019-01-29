@@ -47,10 +47,10 @@ $(document).ready(() => {
 	  
   }	
   $("#human").click(function(){
-	  	  async function timechecks(){
+	  	let timechecks =  async function({
 	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
           console.log(lasttime);
-			   }
+			   })();
   
   });
 });
