@@ -48,21 +48,21 @@ $(document).ready(() => {
   }	
   //$("#human").click(function(){
    setInterval(function() {
-	  let recoverTime = 600;
-	  let now = Math.floor(new Date().getTime()/1000.0);
-	  let timecall = (async function(){
-	  let lasttime = await TRON.myLastTime(tronWeb.defaultAddress.base58);
-	  //console.log(lasttime.time);
-          let timeleft = (lasttime.time).toString();
+	  //let recoverTime = 600;
+	  //let now = Math.floor(new Date().getTime()/1000.0);
+	  let available = (async function(){
+	  let availableCheck = await TRON.myAvailable(tronWeb.defaultAddress.base58);
+	  console.log(availableCheck.number);
+          //let timeleft = (lasttime.time).toString();
 	  //console.log(timeleft);
 	  //console.log(now - timeleft); 
 	  //console.log(recoverTime - (now - timeleft)); 
-	  let timeSince = recoverTime - (now - timeleft);  
-		   if (timeSince > 0) { 
-			   $("#human_but").attr('disabled', ''); 
-			   $("#human").html("Wait..").attr('disabled', ''); 
-		   } 
+	  //let timeSince = recoverTime - (now - timeleft);  
+		  // if (timeSince > 0) { 
+			  // $("#human_but").attr('disabled', ''); 
+			  // $("#human").html("Wait..").attr('disabled', ''); 
+		   //} 
 	   })();
-  }, 2000);
+  }, 5000);
   //});
 });
