@@ -1,5 +1,5 @@
 var TRON = {
-    CONTRACT_ADDRESS: "TJuGjPrzUZNJHL9seB5JgbAmdAi47Aqeps",
+    CONTRACT_ADDRESS: "TLijiFWfhK55BKCEZ2Up1yc35c5SiYkvDr",
     contractInstance: "",
     init: async function() {
         var contractInfo = await window.tronWeb.trx.getContract(this.CONTRACT_ADDRESS);
