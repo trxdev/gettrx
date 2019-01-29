@@ -32,7 +32,6 @@
     <div class="incenter" style="margin-top:15px;">
         <iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=LOQBU2V7573MQ" style="overflow:hidden;width:728px;height:90px;" frameborder="0"></iframe>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
     <div class="modal fade" id="human_verify" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -42,7 +41,7 @@
         </div>
     </div>
     <div class="modal fade" id="premium_modal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <?php include('template/modals/premium.php'); ?>
             </div>
