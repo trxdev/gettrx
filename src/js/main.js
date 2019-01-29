@@ -32,15 +32,13 @@ $(document).ready(() => {
 
 	  //let recoverTime = 600;
 	  //let now = Math.floor(new Date().getTime()/1000.0);
-	  async function timechecks(){
-	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
-          console.log(lasttime);
+
           //let timeleft = (lasttime.time).toString();
 	  //let timeSince = recoverTime - (now - timeleft);	  
 	  //console.log(timeleft);
 	  // console.log(timeSince);  
 	  //  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); } 
-	   }	
+	  	
   async function showAccountInfo() {
   	let addr = tronWeb.defaultAddress.base58;
 	//$("#account-address").text(tronWeb.defaultAddress.base58);
@@ -49,6 +47,10 @@ $(document).ready(() => {
 	  
   }	
   $("#human").click(function(){
+	  	  async function timechecks(){
+	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
+          console.log(lasttime);
+			   }
   
   });
 });
