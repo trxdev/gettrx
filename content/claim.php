@@ -58,10 +58,12 @@
             </div>
         </div>
     </div>
-    <div id="premium_modal">
-    
-        <?php include('./template/modals/premium.php'); ?>
-        </div>
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <?php include('template/modals/premium.php'); ?>
+            </div>
+            </div></div>
     
 
 </div>
