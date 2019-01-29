@@ -1,4 +1,4 @@
-<?php rquire 'includes/config.php'; ?>
+<?php require 'includes/config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
