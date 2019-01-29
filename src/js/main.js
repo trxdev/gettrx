@@ -47,7 +47,7 @@ $(document).ready(() => {
 	  
   }	
   //$("#human").click(function(){
-
+   setInterval(function() {
 	  let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
 	  let timecall = (async function(){
@@ -59,5 +59,5 @@ $(document).ready(() => {
 		 console.log(recoverTime - (now - timeleft)); 
 	   })();
   
-  //});
+  });
 });
