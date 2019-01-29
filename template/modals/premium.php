@@ -1,4 +1,4 @@
-<div class="modal-dialog" role="document">
+
     <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title">Prove To Be Human</h5>
@@ -18,4 +18,4 @@
             </form>
         </div>
     </div>
-</div>
+
