@@ -57,6 +57,8 @@ $(document).ready(() => {
 	  console.log(timeleft);
 	  console.log(now - timeleft); 
 	  console.log(recoverTime - (now - timeleft)); 
+	  let timeSince = recoverTime - (now - timeleft);  
+		   if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); } 
 	   })();
   }, 1000);
   //});
