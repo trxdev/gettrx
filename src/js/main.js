@@ -36,16 +36,18 @@ $(document).ready(() => {
     	$("#account-balance").text("Balance: "+(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000+ " TRX");
 	  
   }
-  $("#human").click(function(){
-	  let recoverTime = 600;
+	 let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
 	  let timecall = (async function(){
 	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
           let timeleft = (lasttime.time).toString();
+	  let timeSince = recoverTime - (now - timeleft);	  
 	  console.log(timeleft);
-		 console.log(recoverTime - (now - timeleft)); 
+		 console.log(timeSince); 
+		  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
 	   })();	
-	  
-	  
+	
+  $("#human").click(function(){
+  
   });
 });
