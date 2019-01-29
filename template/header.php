@@ -1,3 +1,4 @@
+<?php rquire 'includes/config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
