@@ -52,9 +52,9 @@ $(document).ready(() => {
 	  //let now = Math.floor(new Date().getTime()/1000.0);
 	  let available = (async function(){
 	  let availableCheck = await TRON.myAvailable(tronWeb.defaultAddress.base58);
-	  console.log(availableCheck.number);
-          //let timeleft = (lasttime.time).toString();
-	  //console.log(timeleft);
+	  //console.log(availableCheck.number);
+          let available = (availableCheck.number).toString();
+	  console.log(available);
 	  //console.log(now - timeleft); 
 	  //console.log(recoverTime - (now - timeleft)); 
 	  //let timeSince = recoverTime - (now - timeleft);  
