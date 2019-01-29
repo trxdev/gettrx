@@ -37,11 +37,12 @@ $(document).ready(() => {
 	  
   }
   $("#human").click(function(){
-	  let timeto = (async function(){
-	  var timeleft = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
-	  console.log((timeleft.left).toString());
+	  let timecall = (async function(){
+	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
+          let timeleft = (lasttime.left).toString()
+	  console.log(timeleft);
 	   })();	
 	  var now = Math.floor(new Date().getTime()/1000.0);
-	  console.log(now);
+	  console.log(now - timeleft);
   });
 });
