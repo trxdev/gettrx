@@ -60,7 +60,7 @@
     </div>
     <div id="premium_modal">
     
-        <?php include('template/modals/premium.php'); ?>
+        <?php include('./template/modals/premium.php'); ?>
         </div>
     
 
