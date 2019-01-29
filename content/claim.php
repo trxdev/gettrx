@@ -15,12 +15,7 @@
         </div>
         <div class="col-md-7">
             <div class="col-md-12" style="padding:35px;border: 1px solid #000;border-radius: 7px;background: #e9ecef;">
-                <h4 style="font-weight: 300;line-height: 1.41667;text-transform: none;color: #29293a;text-align: left!important;">GET FREE TRX :: <span id="account-address" style="font-weight:400;"></span> : <span id="account-balance"></span></h4>
-                <div>
-                    <iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=TX5FVE00GYSPK" style="overflow:hidden;width:468px;height:60px;" frameborder="0"></iframe>
-                </div>
-                <h2 style="font-weight: 500;text-transform: uppercase;color: #29293a;margin-bottom: 0;letter-spacing: .02em;line-height: 1.375;text-align: left!important;">Tron Faucet To Claim TRX</h2>
-                <div class="divider"></div>
+            <div><?php include('template/info.php'); ?></div>
                 <p>You can claim 10,000 SUN (0.01 TRX) every 10 minutes. If you are looking to claim more then become a premium member and enjoy more number of claims.</p>
                 <p>To claim free TRON, You need to follow TRON Faucet on Twitter and Join Discord.</p>
                 <p>To claim, prove you are human as accounts with suspecious activities gets blcklisted!</p>
