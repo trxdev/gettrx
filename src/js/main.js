@@ -41,5 +41,5 @@ $(document).ready(() => {
 	  var timeleft = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
 	   })();
 	  console.log(timeleft);
-  }
+  });
 });
