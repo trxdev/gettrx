@@ -3,8 +3,8 @@
         <div class="col-md-5">
             <div class="col-md-12" style="padding:45px;border: 1px solid #000;border-radius: 7px;background: #e9ecef;">
 
-                <h6 class="incenter">CLAIM FREE TRX NOW<br>Every 10 Minutes</h6>
-                <div class="incenter" style="margin:15px;"><a href="claim.php" lass="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
+                <h6 class="incenter">CLAIM FREE TRX<br>Every 10 Minutes</h6>
+                <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
                 <h5 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h5>
                 <br>
                 <div class="incenter"><?php echo $a; ?></div>
