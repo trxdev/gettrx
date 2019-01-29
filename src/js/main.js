@@ -36,4 +36,8 @@ $(document).ready(() => {
     	$("#account-balance").text("Balance: "+(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000+ " TRX");
 	  
   }
+  $("#human").click(function(){
+	  var timeleft = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
+	  console.log(timeleft);
+  }
 });
