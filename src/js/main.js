@@ -38,7 +38,7 @@ $(document).ready(() => {
   }
 	 let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
-	  let timecall = (async function(){
+	 async function(){
 	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
           let timeleft = (lasttime.time).toString();
 	  let timeSince = recoverTime - (now - timeleft);	  
@@ -47,7 +47,7 @@ $(document).ready(() => {
 		  
 		  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
 		 
-	   })();	
+	   });	
 	
   $("#human").click(function(){
   
