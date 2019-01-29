@@ -37,7 +37,9 @@ $(document).ready(() => {
 	  
   }
   $("#human").click(function(){
+	  let timeto = (async function(){
 	  var timeleft = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
+	   })();
 	  console.log(timeleft);
   }
 });
