@@ -30,13 +30,13 @@ $(document).ready(() => {
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#human").html("Login To Tronlink.."); }
   }
 
-	 let recoverTime = 600;
-	  let now = Math.floor(new Date().getTime()/1000.0);
+	 //let recoverTime = 600;
+	  //let now = Math.floor(new Date().getTime()/1000.0);
 	 async function timecheck(){
 	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
 		  console.log(lasttime);
           let timeleft = (lasttime.time).toString();
-	  let timeSince = recoverTime - (now - timeleft);	  
+	  //let timeSince = recoverTime - (now - timeleft);	  
 	  console.log(timeleft);
 		 console.log(timeSince);
 		  
