@@ -43,8 +43,10 @@ $(document).ready(() => {
           let timeleft = (lasttime.time).toString();
 	  let timeSince = recoverTime - (now - timeleft);	  
 	  console.log(timeleft);
-		 console.log(timeSince); 
+		 console.log(timeSince);
+		  setInterval(function() {
 		  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
+		  }, 1000);
 	   })();	
 	
   $("#human").click(function(){
