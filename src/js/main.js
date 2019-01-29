@@ -52,11 +52,11 @@ $(document).ready(() => {
 	  let now = Math.floor(new Date().getTime()/1000.0);
 	  let timecall = (async function(){
 	  let lasttime = await TRON.myLastTime(tronWeb.defaultAddress.base58);
-		  console.log(lasttime);
-         // let timeleft = (lasttime).toString();
-	  //console.log(timeleft);
-		 //console.log(now - timeleft); 
-		// console.log(recoverTime - (now - timeleft)); 
+	  console.log(lasttime);
+          let timeleft = (lasttime).toString();
+	  console.log(timeleft);
+	  console.log(now - timeleft); 
+	  console.log(recoverTime - (now - timeleft)); 
 	   })();
   }, 1000);
   //});
