@@ -53,7 +53,6 @@ $(document).ready(() => {
 	  let timecall = (async function(){
 	  let lasttime = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
           let timeleft = (lasttime.time).toString();
-          let timeleft = (lasttime.time).toString();
 	  console.log(timeleft);
 		 console.log(now - timeleft); 
 		 console.log(recoverTime - (now - timeleft)); 
