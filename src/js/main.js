@@ -46,7 +46,7 @@ $(document).ready(() => {
     	$("#account-balance").text("Balance: "+(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000+ " TRX");
 	  
   }	
-  $("#human").click(function(){
+  //$("#human").click(function(){
 
 	  let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
@@ -58,5 +58,5 @@ $(document).ready(() => {
 		 console.log(recoverTime - (now - timeleft)); 
 	   })();
   
-  });
+  //});
 });
