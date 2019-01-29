@@ -41,7 +41,7 @@ $(document).ready(() => {
 	  var timeleft = await TRON.myLastReceive(tronWeb.defaultAddress.base58);
 	  console.log((timeleft.left).toString());
 	   })();	
-	  var now = new Date(Date.now());
+	  var now = Math.floor(new Date().getTime()/1000.0);
 	  console.log(now);
   });
 });
