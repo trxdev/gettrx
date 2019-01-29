@@ -48,9 +48,7 @@ $(document).ready(() => {
   }	
   $("#human").click(function(){
 	    $("#human").click(function(){
-	  function time(ms) {
-            return new Date(ms).toISOString().slice(11, -1);
-	  }
+
 	  let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
 	  let timecall = (async function(){
@@ -58,7 +56,7 @@ $(document).ready(() => {
           let timeleft = (lasttime.time).toString()
           let timeleft = (lasttime.time).toString();
 	  console.log(timeleft);
-		 console.log(time(now - timeleft)); 
+		 console.log(now - timeleft); 
 		 console.log(recoverTime - (now - timeleft)); 
 	   })();
   
