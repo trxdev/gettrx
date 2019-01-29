@@ -29,13 +29,7 @@ $(document).ready(() => {
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#verify").html("Login To Tronlink..").attr('disabled', ''); }
 	  if (!(window.tronWeb && window.tronWeb.ready)){ $("#human").html("Login To Tronlink.."); }
   }
-  async function showAccountInfo() {
-  	let addr = tronWeb.defaultAddress.base58;
-	//$("#account-address").text(tronWeb.defaultAddress.base58);
-    	$("#account-address").text(addr.slice(0,6)+"..."+addr.slice(-6));
-    	$("#account-balance").text("Balance: "+(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000+ " TRX");
-	  
-  }
+
 	 let recoverTime = 600;
 	  let now = Math.floor(new Date().getTime()/1000.0);
 	 async function timecheck(){
@@ -49,7 +43,13 @@ $(document).ready(() => {
 		//  if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); }
 		 
 	   }	
-	
+  async function showAccountInfo() {
+  	let addr = tronWeb.defaultAddress.base58;
+	//$("#account-address").text(tronWeb.defaultAddress.base58);
+    	$("#account-address").text(addr.slice(0,6)+"..."+addr.slice(-6));
+    	$("#account-balance").text("Balance: "+(await tronWeb.trx.getBalance(tronWeb.defaultAddress.base58))/1000000+ " TRX");
+	  
+  }	
   $("#human").click(function(){
   
   });
