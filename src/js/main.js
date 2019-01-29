@@ -52,14 +52,17 @@ $(document).ready(() => {
 	  let now = Math.floor(new Date().getTime()/1000.0);
 	  let timecall = (async function(){
 	  let lasttime = await TRON.myLastTime(tronWeb.defaultAddress.base58);
-	  console.log(lasttime.time);
+	  //console.log(lasttime.time);
           let timeleft = (lasttime.time).toString();
-	  console.log(timeleft);
-	  console.log(now - timeleft); 
-	  console.log(recoverTime - (now - timeleft)); 
+	  //console.log(timeleft);
+	  //console.log(now - timeleft); 
+	  //console.log(recoverTime - (now - timeleft)); 
 	  let timeSince = recoverTime - (now - timeleft);  
-		   if (timeSince > 0) { $("#human").html("Wait..").attr('disabled', ''); } 
+		   if (timeSince > 0) { 
+			   $("#human_but").attr('disabled', ''); 
+			   $("#human").html("Wait..").attr('disabled', ''); 
+		   } 
 	   })();
-  }, 1000);
+  }, 2000);
   //});
 });
