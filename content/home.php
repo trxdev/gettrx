@@ -16,7 +16,7 @@
                     <?php include('template/info.php'); ?>
                 </div>
                 <script src="/src/js/specs.js"></script>
-                <p style="margin-top: 40px;letter-spacing: .02em;text-align: left!important;">Tron is world no.<span id="rank"></span> cryptocurrency with a market cap of <span id="cap"></span>. In last 24 hours tron coin volume remains <span id="volumetoday"></span>with tron price right now trading at <span id="price"></span>.
+                <p style="margin-top: 40px;letter-spacing: .02em;text-align: left!important;">Tron is world no.<span id="rank"></span> cryptocurrency with a market cap of <span id="cap"></span>. In last 24 hours tron coin volume remains <span id="volumetoday"></span> with tron price right now trading at <span id="price"></span>.
                     <br> You can claim free trons on this tron faucet. We give away 10,000 SUN (0.01 TRX) every 10 minutes. To claim free tron, you must follow rules and guidelines and should not do any activities that harm the good purpose fo this faucet.</p>
             </div>
         </div>
