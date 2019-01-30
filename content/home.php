@@ -6,7 +6,7 @@
                 <h6 class="incenter">CLAIM FREE TRX<br>Every 10 Minutes</h6>
                 <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
                 <h5 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h5>
-                <br>
+                <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
                 <div class="incenter"><?php echo $a; ?></div>
             </div>
         </div>
