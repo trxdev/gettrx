@@ -93,6 +93,12 @@
     margin-left: 20px;
     margin-right: 20px;
    }
+    .circle-up {
+  background: yellow;
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
     @media (min-width: 1600px) {
         .container-bigger {
           max-width: 1500px;
