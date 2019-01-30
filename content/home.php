@@ -21,13 +21,13 @@
             
             <ul class="inline-list">
                 <li class="text-center"><span class="icon novi-icon icon-md mdi mdi-star text-secondary-3"><i class="fa fa-discord" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">Bestseller<br>2016</p>
+                  <p class="text-spacing-sm offset-0">JOIN TWITTWR</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">Bestseller<br>2016</p>
+                  <p class="text-spacing-sm offset-0">JOIN FACEBOOK</p>
                 </li>
                 <li class="text-center"><span class="icon novi-icon icon-md mdi mdi-trophy text-secondary-3"><i class="fa fa-discord" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">Bestseller<br>2016</p>
+                  <p class="text-spacing-sm offset-0">JOIN DOSCORD</p>
                 </li>
               </ul>
             
