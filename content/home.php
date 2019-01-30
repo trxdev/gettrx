@@ -30,7 +30,7 @@
                 <li class="text-center"><span><i class="fa fa-discord circle-up "></i></span>
                   <p class="text-spacing-sm offset-0">DOSCORD</p>
                 </li>
-                <li class="text-center"><span><i class="fa fa-telegram circle-up " aria-hidden="true"></i></span>
+                <li class="text-center"><span><i class="fa fa-telegram-plane circle-up " aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">TELEGRAM</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-reddit circle-up " aria-hidden="true"></i></span>
