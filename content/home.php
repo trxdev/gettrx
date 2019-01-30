@@ -23,10 +23,10 @@
                 <li class="text-center"><span class="icon novi-icon icon-md mdi mdi-star text-secondary-3"></span>
                   <p class="text-spacing-sm offset-0">Bestseller<br>2016</p>
                 </li>
-                <li class="text-center"><span class="icon novi-icon icon-md mdi mdi-trophy text-secondary-3"><i class="fa fa-star" aria-hidden="true"></i></span>
+                <li class="text-center"><span><i class="fa fa-facebook" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">Bestseller<br>2016</p>
                 </li>
-                <li class="text-center"><span class="icon novi-icon icon-md mdi mdi-trophy text-secondary-3"></span>
+                <li class="text-center"><span class="icon novi-icon icon-md mdi mdi-trophy text-secondary-3"><i class="fa fa-twitter" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">Bestseller<br>2016</p>
                 </li>
               </ul>
