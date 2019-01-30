@@ -24,7 +24,7 @@
                 <li class="text-center"><span><i class="fab fa-twitter circle-up" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">TWITTWR</p>
                 </li>
-                <li class="text-center"><span><i class="fab fa-facebook circle-up" aria-hidden="true"></i></span>
+                <li class="text-center"><span><i class="fab fa-facebook-f circle-up" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">FACEBOOK</p>
                 </li>
                 <li class="text-center"><span><i class="fab fa-discord circle-up"></i></span>
@@ -33,7 +33,7 @@
                 <li class="text-center"><span><i class="fab fa-telegram-plane circle-up" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">TELEGRAM</p>
                 </li>
-                <li class="text-center"><span><i class="fab fa-reddit circle-up" aria-hidden="true"></i></span>
+                <li class="text-center"><span><i class="fab fa-reddit-alien circle-up" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">REDDIT</p>
                 </li>
               </ul>
