@@ -20,7 +20,7 @@
                     <br> You can claim free trons on this tron faucet. We give away 10,000 SUN (0.01 TRX) every 10 minutes. To claim free tron, you must follow rules and guidelines and should not do any activities that harm the good purpose fo this faucet.</p>
             
             <ul class="inline-list">
-                <li class="text-center"><span><i class="fa fa-discord" aria-hidden="true"></i></span>
+                <li class="text-center"><span><i class="fa fa-twitter" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">JOIN TWITTWR</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-facebook" aria-hidden="true"></i></span>
