@@ -1,12 +1,12 @@
 <div class="container container-bigger" style="padding-top: 110px;">
     <div class="row">
         <div class="col-md-5">
-            <div class="col-md-12 left-side incenter">
-                <h6 class="" style="margin-top:5px;">CLAIM FREE TRX<br>Every 10 Minutes</h6>
-                <div class="" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina" style="text-decoration:none;"><span id="claim">CLAIM NOW</span></a></div>
-                <h6 class="">BECOME PREMIUM MEMBER TO CLAIM MORE</h6>
-                <div class="prem_but"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></div>
-                <div class=""><?php echo $a; ?></div>
+            <div class="col-md-12 left-side">
+                <h6 class="incenter" style="margin-top:5px;">CLAIM FREE TRX<br>Every 10 Minutes</h6>
+                <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina" style="text-decoration:none;"><span id="claim">CLAIM NOW</span></a></div>
+                <h6 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h6>
+                <div class="incenter prem_but"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></div>
+                <div class="incenter"><?php echo $a; ?></div>
             </div>
         </div>
         <div class="col-md-7">
