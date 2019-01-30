@@ -88,7 +88,7 @@
     display: block;
     }
    .inline-list>li {
-       display: inline-block;
+    display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -100,6 +100,7 @@
   width: 2em;
   background-color:#ed1c94;
   font-weight:600;
+  padding: 0.5en;      
 }
     @media (min-width: 1600px) {
         .container-bigger {
