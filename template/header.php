@@ -6,7 +6,7 @@
     <title>Home - GETTRX</title>
     <meta name="description" content="">
     
-    <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.5/css/fork-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.5/css/fork-awesome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="/template/style.css">
     <link rel='favicon icon' type='image/x-icon' href='/images/favicon.ico' />
