@@ -100,7 +100,7 @@
   width: 2em;
   background-color:#ed1c94;
   font-weight:600;
-  padding: 0.5en;      
+  padding: 0.5em;      
 }
     @media (min-width: 1600px) {
         .container-bigger {
