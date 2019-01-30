@@ -5,12 +5,8 @@
                 <h6 class="incenter">CLAIM FREE TRX NOW</h6>
                 <div class="incenter" style="margin:15px;"></div>
                 <h5 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h5>
-                <div class="incenter">
-                    <p style="margin: 15px;letter-spacing: .02em;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></p>
-                </div>
-                <div class="incenter">
-                    <iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=D2SUKIIVOLPOL" style="overflow:hidden;width:300px;height:250px;" frameborder="0"></iframe>
-                </div>
+                <div class="incenter"><p style="margin: 15px;letter-spacing: .02em;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></p></div>
+                <div class="incenter" style="margin-top:15px;"><?php echo $a; ?></div>
             </div>
         </div>
         <div class="col-md-7">
@@ -24,9 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="incenter" style="margin-top:15px;">
-        <iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=LOQBU2V7573MQ" style="overflow:hidden;width:728px;height:90px;" frameborder="0"></iframe>
-    </div>
+    <div class="incenter" style="margin-top:15px;"><?php echo $c; ?></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
     <div class="modal fade" id="human_verify" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
         <div class="modal-dialog" role="document">
