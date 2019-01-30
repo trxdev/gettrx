@@ -1,4 +1,6 @@
 <?php
+require 'includes/config.php';
+require 'src/lib/solvemedialib.php';
 if($_POST)
 {
     $solvemedia_response = solvemedia_check_answer($privkey,
