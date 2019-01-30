@@ -117,6 +117,9 @@
  .para {
      margin-top: 40px;letter-spacing: .02em;text-align: left!important;
  }
+ .adme{
+     margin-top:15px;
+ }
     @media (min-width: 1600px) {
         .container-bigger {
           max-width: 1500px;
