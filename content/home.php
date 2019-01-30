@@ -26,7 +26,7 @@
                 <li class="text-center"><span><i class="fa fa-facebook" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">FACEBOOK</p>
                 </li>
-                <li class="text-center"><span><i class="fab fa-discord"></i></span>
+                <li class="text-center"><span><i class="fa fa-discord"></i></span>
                   <p class="text-spacing-sm offset-0">DOSCORD</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-telegram" aria-hidden="true"></i></span>
