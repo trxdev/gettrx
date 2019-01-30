@@ -21,19 +21,19 @@
             
             <ul class="inline-list">
                 <li class="text-center"><span><i class="fa fa-twitter" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">JOIN TWITTWR</p>
+                  <p class="text-spacing-sm offset-0">TWITTWR</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-facebook" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">JOIN FACEBOOK</p>
+                  <p class="text-spacing-sm offset-0">FACEBOOK</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-discord" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">JOIN DOSCORD</p>
+                  <p class="text-spacing-sm offset-0">DOSCORD</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-telegram" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">JOIN TELEGRAM</p>
+                  <p class="text-spacing-sm offset-0">TELEGRAM</p>
                 </li>
                 <li class="text-center"><span><i class="fa fa-reddit" aria-hidden="true"></i></span>
-                  <p class="text-spacing-sm offset-0">JOIN DOSCORD</p>
+                  <p class="text-spacing-sm offset-0">REDDIT</p>
                 </li>
               </ul>
             
