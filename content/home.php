@@ -29,6 +29,12 @@
                 <li class="text-center"><span><i class="fa fa-discord" aria-hidden="true"></i></span>
                   <p class="text-spacing-sm offset-0">JOIN DOSCORD</p>
                 </li>
+                <li class="text-center"><span><i class="fa fa-telegram" aria-hidden="true"></i></span>
+                  <p class="text-spacing-sm offset-0">JOIN TELEGRAM</p>
+                </li>
+                <li class="text-center"><span><i class="fa fa-reddit" aria-hidden="true"></i></span>
+                  <p class="text-spacing-sm offset-0">JOIN DOSCORD</p>
+                </li>
               </ul>
             
             </div>
