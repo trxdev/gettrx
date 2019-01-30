@@ -114,6 +114,9 @@
  .prem_but {
      margin: 15px;letter-spacing: .02em;
  }
+ .para {
+     margin-top: 40px;letter-spacing: .02em;text-align: left!important;
+ }
     @media (min-width: 1600px) {
         .container-bigger {
           max-width: 1500px;
