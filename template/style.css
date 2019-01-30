@@ -83,6 +83,16 @@
     .foot {
         text-align: center!important;
     }
+  .inline-list ul {
+    list-style: none;
+    display: block;
+    }
+   .inline-list ul li {
+       display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
     @media (min-width: 1600px) {
         .container-bigger {
           max-width: 1500px;
