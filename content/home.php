@@ -6,7 +6,7 @@
                 <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina" style="text-decoration:none;"><span id="claim">CLAIM NOW</span></a></div>
                 <h6 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h6>
                 <div class="incenter prem_but"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></div>
-                <div class="incenter"><?php echo $a; ?></div>
+                <div class="incenter adme"><?php echo $a; ?></div>
             </div>
         </div>
         <div class="col-md-7">
@@ -32,11 +32,10 @@
                   <p class="text-spacing-sm offset-0">REDDIT</p>
                 </li>
               </ul>
-            
             </div>
         </div>
     </div>
-    <div class="incenter" style="margin-top:15px;"><?php echo $c; ?></div>
+    <div class="incenter adme"><?php echo $c; ?></div>
     <div class="modal fade" id="premium_modal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content"><?php include('template/modals/premium.php'); ?></div>
