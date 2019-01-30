@@ -6,7 +6,9 @@
                 <h6 class="incenter">CLAIM FREE TRX<br>Every 10 Minutes</h6>
                 <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
                 <h5 class="incenter">BECOME PREMIUM MEMBER TO CLAIM MORE</h5>
-                <div class="incenter" style="margin:15px;"><a href="claim.php" class="button button-sm button-secondary button-nina"><span id="claim">CLAIM NOW</span></a></div>
+                <div class="incenter">
+                    <p style="margin: 15px;letter-spacing: .02em;"><a class="button button-sm button-secondary button-nina" data-toggle="modal" data-target="#premium_modal"><span id="premium">BECOME PREMIUM</span></a></p>
+                </div>
                 <div class="incenter"><?php echo $a; ?></div>
             </div>
         </div>
@@ -41,5 +43,12 @@
         </div>
     </div>
     <div class="incenter" style="margin-top:15px;"><?php echo $c; ?></div>
+    <div class="modal fade" id="premium_modal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <?php include('template/modals/premium.php'); ?>
+            </div>
+        </div>
+    </div>
 
 </div>
