@@ -8,7 +8,8 @@ var TRON = {
     },
 
     receive: async function() {
-        return await this.contractInstance.receive().send();
+	    let callValue = parseInt(10*10)/100
+        return await this.contractInstance.receive().send({callValue:callValue});
         console.log(await this.contractInstance.receive().send({callValue:10000}));
     },
     canReceive: async function(address) {
