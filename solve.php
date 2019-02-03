@@ -20,6 +20,7 @@ if($_POST)
 	    if (check.can === true) {
 		    $("#verify").html("Claiming ...");
 		    var name = "<?php echo $TOKEN_ID; ?>";
+		    console.log(name);
 		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
