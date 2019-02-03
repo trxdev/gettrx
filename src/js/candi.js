@@ -1,5 +1,5 @@
 var TRON = {
-    CONTRACT_ADDRESS: "TQawLUhrPrBQX5Wnv6KMHZgm1AHCi32b9G",
+    CONTRACT_ADDRESS: "TMjPTTXCANoigZym8qp64EkoE1vSCkbMn4",
     //CONTRACT_ADDRESS: "TLijiFWfhK55BKCEZ2Up1yc35c5SiYkvDr",
     contractInstance: "",
     init: async function() {
