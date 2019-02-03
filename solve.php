@@ -1,7 +1,6 @@
 <?php
+require 'includes/config.php';
 require 'src/lib/solvemedialib.php';
-$privkey="FjmpDymsxjGHoE4kjLBWlxAwDbowmDUK";  // SolveMedia Key
-$hashkey="lt5d05u8AQOj9ZwpGKxE8U.ELJQPruBd";  // SolveMedia Key
 if($_POST)
 {
     $solvemedia_response = solvemedia_check_answer($privkey,
@@ -20,7 +19,8 @@ if($_POST)
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
 		    $("#verify").html("Claiming ...");
-		    var results = await TRON.receive();
+		    
+		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");

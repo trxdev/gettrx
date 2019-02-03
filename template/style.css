@@ -83,6 +83,43 @@
     .foot {
         text-align: center!important;
     }
+   ul {
+    list-style: none;
+    display: block;
+    }
+  .inline-list>li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   .circle-up {
+  color: #fff;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  background-color:#ed1c94;
+  font-weight:600;
+  padding: 0.5em;      
+ }
+ .inline-list p {
+  font-weight:600;   
+ }
+ .left-side{
+     padding:35px;border: 1px solid #000;border-radius: 7px;background: #e9ecef;
+ }
+ .right-side{
+     padding:35px;border: 1px solid #000;border-radius: 7px;background: #e9ecef;
+ }
+ .prem_but {
+     margin: 15px;letter-spacing: .02em;
+ }
+ .para {
+     margin-top: 40px;letter-spacing: .02em;text-align: left!important;
+ }
+ .adme{
+     margin-top:15px;
+ }
     @media (min-width: 1600px) {
         .container-bigger {
           max-width: 1500px;

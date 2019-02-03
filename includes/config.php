@@ -1,24 +1,5 @@
 <?php
-/**
- * Used to store website configuration information.
- *
- * @var string or null
- */
-function config($key = '')
-{
-    $config = [
-        'name' => 'Simple PHP Website',
-        'site_url' => 'https://aqcandy.herokuapp.com',
-        'pretty_uri' => true,
-        'nav_menu' => [
-            '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
-        ],
-        'template_path' => 'template',
-        'content_path' => 'content',
-        'version' => 'v3.0',
-    ];
-    return isset($config[$key]) ? $config[$key] : null;
-}
+$c = '<iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=LOQBU2V7573MQ" style="overflow:hidden;width:728px;height:90px;" frameborder="0"></iframe>';
+$a = '<iframe scrolling="no" src="//coinad.com/ads/show/show.php?a=MWGGIWYRX03O6&b=D2SUKIIVOLPOL" style="overflow:hidden;width:300px;height:250px;" frameborder="0"></iframe>';
+$privkey="FjmpDymsxjGHoE4kjLBWlxAwDbowmDUK";  // SolveMedia Key
+$hashkey="lt5d05u8AQOj9ZwpGKxE8U.ELJQPruBd";  // SolveMedia Key
