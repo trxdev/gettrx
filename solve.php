@@ -19,7 +19,7 @@ if($_POST)
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
 		    $("#verify").html("Claiming ...");
-		    
+		    var name = "<?php $TOKEN_ID; ?>";
 		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
