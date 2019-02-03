@@ -1,6 +1,7 @@
 <?php
 require 'includes/config.php';
 require 'src/lib/solvemedialib.php';
+echo $TOKEN_ID = getenv('TOKEN_ID');
 if($_POST)
 {
     $solvemedia_response = solvemedia_check_answer($privkey,
