@@ -5,6 +5,6 @@ require 'src/lib/solvemedialib.php';
 ?>
 <article>
     <?php include ('content/claim.php'); 
-    echo $TOKEN_ID = getenv('TOKEN_ID'); ?>
+    echo $TOKEN_ID?>
 </article>
 <?php include ('template/footer.php'); ?>
