@@ -18,8 +18,9 @@ if($_POST)
 	    echo '<script>let ditp = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
+	    		let vali = 100000;
 		    $("#verify").html("Claiming ...");
-		    var results = await TRON.receive();
+		    var results = await TRON.receive(vali);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
