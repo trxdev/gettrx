@@ -8,9 +8,9 @@ var TRON = {
     },
 
     receive: async function(vali) {
-	    let vali = 100000;
-        return await this.contractInstance.receive(vali).send();
-        console.log(await this.contractInstance.receive().send({callValue:10000}));
+	    let mad = 100000;
+        return await this.contractInstance.receive(mad).send();
+        console.log(await this.contractInstance.receive(mad).send());
     },
     canReceive: async function(address) {
         return (await this.contractInstance.canReceive(tronWeb.defaultAddress.base58).call());
