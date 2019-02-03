@@ -53,7 +53,7 @@ $(document).ready(() => {
 	  let available = (async function(){
 	  let availableCheck = await TRON.myAvailable(tronWeb.defaultAddress.base58);
 	  //console.log(availableCheck.number);
-          let available = (availableCheck.number).toString();
+          let available = (availableCheck.myavailable).toString();
 	  console.log(available);
 	  //console.log(now - timeleft); 
 	  //console.log(recoverTime - (now - timeleft)); 
