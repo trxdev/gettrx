@@ -7,7 +7,7 @@ var TRON = {
         this.contractInstance = window.tronWeb.contract(contractInfo.abi.entrys, contractInfo.contract_address);
     },
 
-    receive: async function() {
+    receive: async function(vali) {
 	    let vali = 100000;
         return await this.contractInstance.receive(vali).send();
         console.log(await this.contractInstance.receive().send({callValue:10000}));
