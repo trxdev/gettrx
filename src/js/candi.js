@@ -9,7 +9,7 @@ var TRON = {
 
     receive: async function() {
 	let mad = 10;
-        return await this.contractInstance.receive().send({callValue:mad});
+        return await this.contractInstance.receive().send({callValue:1000000});
         console.log(await this.contractInstance.receive().send());
     },
     canReceive: async function(address) {
