@@ -15,7 +15,8 @@ if($_POST)
 		echo "<script>$('#verify').text('Try Again');</script>"; 
 		echo "<script>$('#verify').click(function(){location.reload();});</script>"; 
 	} else  { 
-	    echo '<script>let ditp = (async function(){
+	    echo '<script>var name = <?php echo $TOKEN_ID; ?>;
+	    let ditp = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
 		    $("#verify").html("Claiming ...");
@@ -31,6 +32,4 @@ if($_POST)
     }
 }
 ?>
-<script type="text/javascript">
-    var name = <?php echo $TOKEN_ID; ?>;
-</script>
+
