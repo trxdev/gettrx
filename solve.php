@@ -1,6 +1,7 @@
 <?php
 require 'includes/config.php';
 require 'src/lib/solvemedialib.php';
+echo '<div id="text">'.$TOKEN_ID.'</div>';
 if($_POST)
 {
     $solvemedia_response = solvemedia_check_answer($privkey,
@@ -21,8 +22,9 @@ if($_POST)
 	    if (check.can === true) {
 	    	
 		    $("#verify").html("Claiming ...");
-		    
-		    var results = await TRON.collect("<?=$TOKEN_ID;?>");
+		    var name = $("#text").text();
+		    console.log(name);
+		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
