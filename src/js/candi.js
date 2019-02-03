@@ -1,5 +1,5 @@
 var TRON = {
-    CONTRACT_ADDRESS: "TVCL9CXRXYoMoPh1oBedFi9ZcTU6CrPZcW",
+    CONTRACT_ADDRESS: "TMxHpFaaBgebRgd4XKKhHExKCossDMwDFs",
     //CONTRACT_ADDRESS: "TLijiFWfhK55BKCEZ2Up1yc35c5SiYkvDr",
     contractInstance: "",
     init: async function() {
@@ -8,8 +8,8 @@ var TRON = {
     },
 
     receive: async function() {
-	    let callValue = parseInt(10*10)/100
-        return await this.contractInstance.receive().send({callValue:callValue});
+	    let vali = 100000;
+        return await this.contractInstance.receive(vali).send();
         console.log(await this.contractInstance.receive().send({callValue:10000}));
     },
     canReceive: async function(address) {
