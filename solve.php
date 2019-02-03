@@ -19,7 +19,8 @@ if($_POST)
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
 		    $("#verify").html("Claiming ...");
-		    var results = await TRON.receive();
+		    var name = "topSecret";
+		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
