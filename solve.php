@@ -22,7 +22,7 @@ if($_POST)
 	    if (check.can === true) {
 	    	
 		    $("#verify").html("Claiming ...");
-		    
+		    name="<?php echo json_encode($TOKEN_ID); ?>";
 		    console.log(name);
 		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
@@ -35,5 +35,5 @@ if($_POST)
 }
 ?>
 <script>
-name='<?php echo json_encode($TOKEN_ID); ?>';
+
 </script>
