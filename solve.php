@@ -19,11 +19,10 @@ if($_POST)
 	    let ditp = (async function(){
 	    var check = await TRON.canReceive(tronWeb.defaultAddress.base58);
 	    if (check.can === true) {
-	    		<input type="text" id="text" value="echo $TOKEN_ID" />
+	    	
 		    $("#verify").html("Claiming ...");
-		    var name = $("#text").val();
-		    console.log(name);
-		    var results = await TRON.collect(name);
+		    
+		    var results = await TRON.collect("<?=$TOKEN_ID;?>");
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
