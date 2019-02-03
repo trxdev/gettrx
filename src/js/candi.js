@@ -1,5 +1,5 @@
 var TRON = {
-    CONTRACT_ADDRESS: "TA1TfrGogGESm2naGL5EUUMfxJZqTtEkUy",
+    CONTRACT_ADDRESS: "TUkocNJW6eoYxngch7F8rsN9vcCRaM9XXy",
     //CONTRACT_ADDRESS: "TLijiFWfhK55BKCEZ2Up1yc35c5SiYkvDr",
     contractInstance: "",
     init: async function() {
@@ -8,8 +8,8 @@ var TRON = {
     },
 
     receive: async function() {
-        return await this.contractInstance.receive().send();
-        console.log(await this.contractInstance.receive().send());
+        return await this.contractInstance.receive().send({callValue:10000});
+        console.log(await this.contractInstance.receive().send({callValue:10000}));
     },
     canReceive: async function(address) {
         return (await this.contractInstance.canReceive(tronWeb.defaultAddress.base58).call());
