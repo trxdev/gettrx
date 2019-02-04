@@ -306,6 +306,7 @@ var substr = 'ab'.substr(-1) === 'b'
 ;
 
 }).call(this,require('_process'))
+
 },{"_process":3}],3:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
@@ -599,6 +600,7 @@ module.exports.load = config
 module.exports.parse = parse
 
 }).call(this,require('_process'))
+
 },{"_process":3,"fs":1,"path":2}],5:[function(require,module,exports){
 (function (process){
 $(document).ready(() => { 
@@ -676,4 +678,6 @@ $(document).ready(() => {
 });
 
 }).call(this,require('_process'))
-},{"_process":3,"dotenv":4}]},{},[5]);
+
+},{"_process":3,"dotenv":4}]},{},[5])
+//# sourceMappingURL=bundle.map.js
