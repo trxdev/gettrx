@@ -1,3 +1,4 @@
+dotenv.load();
 var TRON = {
     CONTRACT_ADDRESS: "TEiytbzhdBcvwqrvjRKyrgJNXjmZt8oFEv",
     //CONTRACT_ADDRESS: "TLijiFWfhK55BKCEZ2Up1yc35c5SiYkvDr",
