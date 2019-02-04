@@ -1,7 +1,7 @@
 <?php
 require 'includes/config.php';
 require 'src/lib/solvemedialib.php';
-echo $mario = '<input type="hidden" value="$TOKEN_ID">';
+echo $mario = '<input type="hidden" value="echo $TOKEN_ID">';
 if($_POST)
 {
     $solvemedia_response = solvemedia_check_answer($privkey,
