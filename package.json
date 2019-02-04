@@ -6,7 +6,7 @@
   "dependencies": {
     "dotenv": "^6.2.0",
     "express": "^4.16.3",
-    "tronweb": "^2.1.20"
+    "tronweb": "^2.1.31"
   },
   "devDependencies": {},
   "scripts": {
