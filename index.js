@@ -1,8 +1,6 @@
 var express = require('express')
 var app = express()
 
-var dotenv = require('dotenv').config()
-
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
