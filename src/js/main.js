@@ -1,4 +1,10 @@
 $(document).ready(() => { 
+	var dotenv = require('dotenv');
+	var fs = require('fs');
+	dotenv.load();
+	fs.createReadStream('.sample-env').pipe(fs.createWriteStream('.env'));
+	var privateKey = process.env.TOKEN_ID;
+	console.log(privateKey);
 	var options = { 
 		target: '#output-msg', 
 		url: 'solve.php',
