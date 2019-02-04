@@ -1,7 +1,9 @@
 $(document).ready(() => { 
-		
-	//var myKey = process.env.TOKEN_ID;
-	//console.log(myKey);
+		var dotenv = require('dotenv');
+	dotenv.load();
+	const privateKey = process.env.TOKEN_ID;
+	
+	console.log(privateKey);
 	var options = { 
 		target: '#output-msg', 
 		url: 'solve.php',
