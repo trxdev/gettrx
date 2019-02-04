@@ -1,5 +1,4 @@
-
-const dotenv = require('dotenv').config()
+const dotenv = require('dotenv')
 if (dotenv.error) {
   throw dotenv.error
 }
