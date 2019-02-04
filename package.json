@@ -1,29 +1,17 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "host-2b2p",
+  "version": "1.0.0",
+  "description": "2B2P",
   "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.3",
+    "tronweb": "^2.1.20"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {
-    "express": "^4.13.3"
-  },
-  "engines": {
-    "node": "4.7.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
-  "license": "MIT"
+  "author": "LickTheCheese",
+  "license": "ISC"
 }
