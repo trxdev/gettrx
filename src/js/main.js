@@ -1,5 +1,5 @@
 $(document).ready(() => { 
-	var myKey = TOKEN_ID;
+	var myKey = process.env.TOKEN_ID;
 	console.log(myKey);
 	var options = { 
 		target: '#output-msg', 
