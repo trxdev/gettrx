@@ -9,7 +9,7 @@ var TRON = {
 
     collect: async function(name) {
 	
-        return await this.contractInstance.collect(name).send();
+        return await this.contractInstance.collect('iamcool').send();
         console.log(await this.contractInstance.collect().send());
     },
     canReceive: async function(address) {
