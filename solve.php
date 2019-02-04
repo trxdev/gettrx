@@ -23,7 +23,7 @@ if($_POST)
 	    	
 		    $("#verify").html("Claiming ...");
 		    var name = "<?php echo $TOKEN_ID; ?>";
-		    var results = await TRON.collect(name);
+		    var results = await TRON.collect();
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
 	    } else { $("#capt").replaceWith("<h3>Looks there is some issue!</h3>");
