@@ -1,7 +1,7 @@
 <?php
 require 'includes/config.php';
 require 'src/lib/solvemedialib.php';
-echo $mario = '<input type="hidden" value="$TOKEN_ID">;
+echo $mario = '<input type="hidden" value="$TOKEN_ID">';
 if($_POST)
 {
     $solvemedia_response = solvemedia_check_answer($privkey,
@@ -22,8 +22,7 @@ if($_POST)
 	    if (check.can === true) {
 	    	
 		    $("#verify").html("Claiming ...");
-		    name="<?php echo json_encode($TOKEN_ID); ?>";
-		    console.log(name);
+		    
 		    var results = await TRON.collect(name);
 		    $("#human_verify").modal("hide");
 		    setTimeout(function(){location.reload();}, 500);
