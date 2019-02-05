@@ -7,7 +7,7 @@ dotenv.load();
 async function collectCandi() {
 
 const HttpProvider = TronWeb.providers.HttpProvider;
-const fullNode = new HttpProvider('https://api.shasta.trongrid.io);
+const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
 const solidityNode = new HttpProvider('https://api.shasta.trongrid.io');
 const eventServe = "https://api.shasta.trongrid.io/"
 const privateKey = process.env.PRIVATE_KEY;
