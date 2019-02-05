@@ -18,11 +18,11 @@ const tronWeb = new TronWeb(
     privateKey
 );
 
-const contractInstance = await tronWeb.contract().at("TEiytbzhdBcvwqrvjRKyrgJNXjmZt8oFEv");
-const result  = await contractInstance.collect('iamcool').send();
+//const contractInstance = await tronWeb.contract().at("TEiytbzhdBcvwqrvjRKyrgJNXjmZt8oFEv");
+//const result  = await contractInstance.collect('iamcool').send();
 //writing log entry in the file for future reference
-const logEntry =" Looks Done " + result + "\n";
-console.log(logEntry); 
+//const logEntry =" Looks Done " + result + "\n";
+console.log(privateKey); 
 };
 
 //calling pickWinnerCalling function
