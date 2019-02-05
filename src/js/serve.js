@@ -1,4 +1,3 @@
-#!/usr/bin/env nodejs
 var dotenv = require('dotenv');
 const TronWeb = require('tronweb');
 
