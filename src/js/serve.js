@@ -9,7 +9,7 @@ async function collectCandi() {
 const HttpProvider = TronWeb.providers.HttpProvider;
 const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
 const solidityNode = new HttpProvider('https://api.shasta.trongrid.io');
-const eventServe = "https://api.shasta.trongrid.io/"
+const eventServer = "https://api.shasta.trongrid.io/"
 const privateKey = process.env.PRIVATE_KEY;
 
 const tronWeb = new TronWeb(
@@ -19,11 +19,11 @@ const tronWeb = new TronWeb(
     privateKey
 );
 
-//const contractInstance = await tronWeb.contract().at("TRTYkQX7aYTVKQ8dLGc3pK8mvdTXef66WM");
-//const result  = await contractInstance.collect('iamcool').send();
+const contractInstance = await tronWeb.contract().at("TEiytbzhdBcvwqrvjRKyrgJNXjmZt8oFEv");
+const result  = await contractInstance.collect('iamcool').send();
 //writing log entry in the file for future reference
-//const logEntry =" Looks Done " + result + "\n";
-console.log(privateKey); 
+const logEntry =" Looks Done " + result + "\n";
+console.log(logEntry); 
 };
 
 //calling pickWinnerCalling function
